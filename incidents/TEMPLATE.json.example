@@ -1,0 +1,30 @@
+// HOW TO POST A MANUAL INCIDENT OR PLANNED MAINTENANCE
+// ----------------------------------------------------
+// 1. Copy this file to a real one, e.g. incidents/2026-07-02-db-maintenance.json
+//    (it MUST end in .json — this .example file is ignored by the monitor).
+// 2. Fill it in and push to `main`. The page updates within a couple of minutes.
+// 3. To post a follow-up, add another entry to the TOP of "updates".
+// 4. To close it, set "resolvedAt" and add a final "resolved" update.
+//
+// Auto-incidents (detected by the monitor) are managed for you — you only write
+// these manual ones for planned maintenance or richer human commentary.
+//
+// impact: "major" | "minor" | "maintenance"
+// status (per update): "investigating" | "identified" | "monitoring" | "resolved"
+//
+// Valid component ids: api, auth, networking, organization, notifications, database, background
+//
+// ---- copy the JSON below into your new file ----
+{
+  "id": "2026-07-02-db-maintenance",
+  "title": "Scheduled database maintenance",
+  "impact": "maintenance",
+  "componentIds": ["database", "api"],
+  "status": "monitoring",
+  "startedAt": "2026-07-02T22:00:00.000Z",
+  "resolvedAt": null,
+  "eta": "2026-07-02T23:00:00.000Z",
+  "updates": [
+    { "at": "2026-07-02T22:00:00.000Z", "status": "monitoring", "body": "Planned PostgreSQL maintenance is underway. Brief slowness may occur. Expected to complete by 23:00 UTC." }
+  ]
+}

@@ -1,0 +1,51 @@
+name: uptime
+
+# Runs the external monitor on a schedule, commits fresh status data, and
+# (via the Pages source = this branch) publishes it to status.thrivea.com.
+# Public repo => unlimited Actions minutes => $0.
+
+on:
+  schedule:
+    - cron: "*/5 * * * *" # every 5 minutes (GitHub may batch under load)
+  workflow_dispatch: {} # manual "Run workflow" button
+  push:
+    branches: [main]
+    paths:
+      - "config.json"
+      - "incidents/**"
+      - "scripts/**"
+
+concurrency:
+  group: uptime
+  cancel-in-progress: false
+
+permissions:
+  contents: write # commit refreshed api/*.json back to the repo
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run health probes
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
+        run: node scripts/monitor.mjs
+
+      - name: Commit status data
+        run: |
+          git config user.name  "thrivea-status-bot"
+          git config user.email "status-bot@thrivea.com"
+          git add api/
+          if git diff --staged --quiet; then
+            echo "No status changes."
+          else
+            git commit -m "chore(status): update at $(date -u +%FT%TZ) [skip ci]"
+            git push
+          fi

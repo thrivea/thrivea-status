@@ -1,0 +1,73 @@
+{
+  "site": {
+    "name": "Thrivea",
+    "title": "Thrivea Status",
+    "tagline": "Live and historical status of the Thrivea platform.",
+    "url": "https://status.thrivea.com",
+    "homeUrl": "https://app.thrivea.com",
+    "supportEmail": "support@thrivea.com",
+    "brandColor": "#7C3AED",
+    "historyDays": 90,
+    "recentIncidentDays": 15
+  },
+
+  "//note": "Monitor targets the publicly reachable prod App host. The azurewebsites.net default host always resolves; swap to api.thrivea.com once confirmed reachable from the public internet. Dedicated single-tenant deployments are kept on separate, private status surfaces — not listed here.",
+
+  "groups": [
+    { "id": "cloud", "name": "Thrivea Cloud (app.thrivea.com)" }
+  ],
+
+  "components": [
+    { "id": "api",           "group": "cloud", "name": "Application API",       "description": "Core gRPC/REST API that the Thrivea web app talks to." },
+    { "id": "auth",          "group": "cloud", "name": "Authentication & SSO",  "description": "Sign-in, identity, single sign-on and workspace federation." },
+    { "id": "networking",    "group": "cloud", "name": "Social Feed",           "description": "Company feed, posts, audience and messaging." },
+    { "id": "organization",  "group": "cloud", "name": "HR & Organization",     "description": "Employee records, jobs, compensation and workflows." },
+    { "id": "notifications", "group": "cloud", "name": "Notifications & Email",  "description": "Email, push and in-app notifications." },
+    { "id": "database",      "group": "cloud", "name": "Database",              "description": "Primary PostgreSQL data store." },
+    { "id": "background",    "group": "cloud", "name": "Background Jobs",        "description": "Async processing: projections, schedulers, integrations." }
+  ],
+
+  "monitors": [
+    {
+      "id": "prod-liveness",
+      "kind": "liveness",
+      "url": "https://app-thrivea-prod.azurewebsites.net/admin/host/ping",
+      "timeoutMs": 10000,
+      "affects": ["api"],
+      "note": "Pure liveness — proves the host process answers at all."
+    },
+    {
+      "id": "prod-readiness",
+      "kind": "health-text",
+      "url": "https://app-thrivea-prod.azurewebsites.net/healthz",
+      "timeoutMs": 12000,
+      "degradedAboveMs": 4000,
+      "affects": ["api", "auth", "networking", "organization", "notifications", "database"],
+      "note": "Aggregate readiness (excludes background). Plain-text today; drives all core components until the JSON writer lands."
+    },
+    {
+      "id": "prod-deep",
+      "kind": "health-json",
+      "url": "https://app-thrivea-prod.azurewebsites.net/healthz/all",
+      "timeoutMs": 15000,
+      "degradedAboveMs": 6000,
+      "checkMap": {
+        "postgres-db": "database",
+        "init-auth-data-source-pool": "auth",
+        "init-networking-data-source-pool": "networking",
+        "init-organization-data-source-pool": "organization",
+        "init-notification-data-source-pool": "notifications",
+        "init-auth-permissions-consolidation": "background",
+        "init-networking-auth-policies": "background",
+        "init-organization-auth-policies": "background"
+      },
+      "fallbackAffects": ["background"],
+      "note": "Per-check granularity. Returns rich JSON ONLY after the backend response-writer diff is merged; until then it is treated as aggregate text and only drives Background Jobs."
+    }
+  ],
+
+  "notify": {
+    "slackWebhookEnv": "SLACK_WEBHOOK_URL",
+    "teamsWebhookEnv": "TEAMS_WEBHOOK_URL"
+  }
+}

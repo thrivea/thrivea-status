@@ -1,0 +1,2636 @@
+{
+  "generatedAt": "2026-06-27T23:21:13.201Z",
+  "overall": "operational",
+  "groups": [
+    {
+      "id": "cloud",
+      "name": "Thrivea Cloud (app.thrivea.com)"
+    }
+  ],
+  "site": {
+    "name": "Thrivea",
+    "title": "Thrivea Status",
+    "tagline": "Live and historical status of the Thrivea platform.",
+    "url": "https://status.thrivea.com",
+    "homeUrl": "https://app.thrivea.com",
+    "supportEmail": "support@thrivea.com",
+    "brandColor": "#7C3AED",
+    "historyDays": 90,
+    "recentIncidentDays": 15
+  },
+  "components": [
+    {
+      "id": "api",
+      "name": "Application API",
+      "description": "Core gRPC/REST API that the Thrivea web app talks to.",
+      "group": "cloud",
+      "status": "operational",
+      "latencyMs": 342,
+      "history": [
+        {
+          "date": "2026-03-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-03-31",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-27",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-28",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-29",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-27",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-28",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-29",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-31",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-27",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
+        }
+      ],
+      "uptime90": 1
+    },
+    {
+      "id": "auth",
+      "name": "Authentication & SSO",
+      "description": "Sign-in, identity, single sign-on and workspace federation.",
+      "group": "cloud",
+      "status": "operational",
+      "latencyMs": 342,
+      "history": [
+        {
+          "date": "2026-03-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-03-31",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-27",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-28",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-29",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-27",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-28",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-29",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-31",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-27",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
+        }
+      ],
+      "uptime90": 1
+    },
+    {
+      "id": "networking",
+      "name": "Social Feed",
+      "description": "Company feed, posts, audience and messaging.",
+      "group": "cloud",
+      "status": "operational",
+      "latencyMs": 342,
+      "history": [
+        {
+          "date": "2026-03-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-03-31",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-27",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-28",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-29",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-27",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-28",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-29",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-31",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-27",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
+        }
+      ],
+      "uptime90": 1
+    },
+    {
+      "id": "organization",
+      "name": "HR & Organization",
+      "description": "Employee records, jobs, compensation and workflows.",
+      "group": "cloud",
+      "status": "operational",
+      "latencyMs": 342,
+      "history": [
+        {
+          "date": "2026-03-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-03-31",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-27",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-28",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-29",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-27",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-28",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-29",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-31",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-27",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
+        }
+      ],
+      "uptime90": 1
+    },
+    {
+      "id": "notifications",
+      "name": "Notifications & Email",
+      "description": "Email, push and in-app notifications.",
+      "group": "cloud",
+      "status": "operational",
+      "latencyMs": 342,
+      "history": [
+        {
+          "date": "2026-03-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-03-31",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-27",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-28",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-29",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-27",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-28",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-29",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-31",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-27",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
+        }
+      ],
+      "uptime90": 1
+    },
+    {
+      "id": "database",
+      "name": "Database",
+      "description": "Primary PostgreSQL data store.",
+      "group": "cloud",
+      "status": "operational",
+      "latencyMs": 342,
+      "history": [
+        {
+          "date": "2026-03-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-03-31",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-27",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-28",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-29",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-27",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-28",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-29",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-31",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-27",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
+        }
+      ],
+      "uptime90": 1
+    },
+    {
+      "id": "background",
+      "name": "Background Jobs",
+      "description": "Async processing: projections, schedulers, integrations.",
+      "group": "cloud",
+      "status": "operational",
+      "latencyMs": 332,
+      "history": [
+        {
+          "date": "2026-03-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-03-31",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-27",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-28",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-29",
+          "uptime": null
+        },
+        {
+          "date": "2026-04-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-27",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-28",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-29",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-30",
+          "uptime": null
+        },
+        {
+          "date": "2026-05-31",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-01",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-02",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-03",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-04",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-05",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-06",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-07",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-08",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-09",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-10",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-11",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-12",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-13",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-14",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-15",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-16",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-17",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-18",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-19",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-20",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-21",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-22",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-23",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-24",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-25",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-26",
+          "uptime": null
+        },
+        {
+          "date": "2026-06-27",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
+        }
+      ],
+      "uptime90": 1
+    }
+  ],
+  "activeIncidents": [],
+  "recentIncidents": []
+}
