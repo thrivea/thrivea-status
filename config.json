@@ -43,7 +43,11 @@
             "init-notification-data-source-pool": "notifications",
             "init-auth-permissions-consolidation": "background",
             "init-networking-auth-policies": "background",
-            "init-organization-auth-policies": "background"
+            "init-organization-auth-policies": "background",
+            "live-auth-db": "auth",
+            "live-networking-db": "networking",
+            "live-organization-db": "organization",
+            "live-notification-db": "notifications"
         } }
       ]
     },
@@ -77,7 +81,11 @@
             "init-notification-data-source-pool": "notifications",
             "init-auth-permissions-consolidation": "background",
             "init-networking-auth-policies": "background",
-            "init-organization-auth-policies": "background"
+            "init-organization-auth-policies": "background",
+            "live-auth-db": "auth",
+            "live-networking-db": "networking",
+            "live-organization-db": "organization",
+            "live-notification-db": "notifications"
         } }
       ]
     }
