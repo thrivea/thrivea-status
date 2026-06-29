@@ -3,19 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Thrivea Status</title>
-  <meta name="description" content="Live and historical status of the Thrivea platform." />
-  <meta property="og:title" content="Thrivea Status" />
-  <meta property="og:description" content="Live and historical status of the Thrivea platform." />
-  <meta property="og:type" content="website" />
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
-  <link rel="alternate" type="application/atom+xml" title="Thrivea Status — Incidents" href="api/feed.xml" />
-  <link rel="stylesheet" href="styles.css" />
+  <title>Thrivea Status — Development</title>
+  <meta name="robots" content="noindex" />
+  <meta name="description" content="Internal status of the Thrivea development environment." />
+  <link rel="icon" type="image/svg+xml" href="../images/favicon.svg" />
+  <link rel="alternate" type="application/atom+xml" title="Thrivea Status (Development) — Incidents" href="../api/dev/feed.xml" />
+  <link rel="stylesheet" href="../styles.css" />
 </head>
 <body data-theme="auto">
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="brand" href="./">
+      <a class="brand" href="../">
         <span class="brand-mark" aria-hidden="true">
           <svg viewBox="0 0 100 100" width="28" height="28">
             <path d="M11.3604 100H88.6396C94.8868 100 100 94.8868 100 88.6395V11.3604C100 5.1132 94.8868 0 88.6396 0H11.3604C5.11319 0 0 5.1132 0 11.3604V88.6395C0 94.8868 5.11319 100 11.3604 100ZM8.36705 89.7055C16.4817 76.4216 24.8487 61.3544 24.9449 58.882C24.5322 57.9363 21.7351 57.8281 19.8998 58.1246C19.3348 58.2168 18.7698 57.9563 18.4732 57.4634C18.1767 56.9746 18.2088 56.3534 18.5534 55.8966L46.3835 18.8179C46.4636 18.7137 48.1347 16.5338 49.1885 15.4799C53.905 10.7594 60.1803 8.1627 66.8564 8.1627C73.5324 8.1627 79.8036 10.7634 84.5241 15.4799C89.2446 20.1963 91.8413 26.4716 91.8413 33.1477C91.8413 39.8197 89.2406 46.095 84.5241 50.8155C84.0834 51.2563 83.6265 51.681 83.1697 52.0737L53.4683 77.1148C52.9513 77.5516 52.198 77.5556 51.677 77.1308C51.1561 76.7061 51.0078 75.9647 51.3324 75.3717C52.3863 73.4282 53.6606 70.018 53.1837 68.5233C53.1316 68.355 53.0635 68.2468 52.9914 68.1667C49.1525 69.1404 25.009 82.9373 10.2865 91.645C9.73351 91.9735 9.02424 91.8814 8.57543 91.4206C8.12262 90.9637 8.04247 90.2545 8.37907 89.7055H8.36705Z" fill="#251D38"/>
@@ -26,13 +24,15 @@
       </a>
       <span id="envBadge" class="env-badge" hidden></span>
       <nav class="header-nav">
-        <a id="homeLink" href="https://app.thrivea.com" target="_blank" rel="noopener">Open app ↗</a>
-        <a href="api/feed.xml">Subscribe (RSS)</a>
+        <a href="../">Production status</a>
+        <a href="../api/dev/feed.xml">Subscribe (RSS)</a>
       </nav>
     </div>
   </header>
 
   <main class="wrap" id="app">
+    <p class="env-note">Internal environment — for the Thrivea team. This is not a customer-facing service.</p>
+
     <section class="overall" id="overall" aria-live="polite">
       <div class="overall-skeleton">Loading status…</div>
     </section>
@@ -62,7 +62,7 @@
     </div>
   </footer>
 
-  <script>window.STATUS_BASE = "api";</script>
-  <script src="app.js"></script>
+  <script>window.STATUS_BASE = "../api/dev";</script>
+  <script src="../app.js"></script>
 </body>
 </html>

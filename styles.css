@@ -54,6 +54,8 @@ a:hover { text-decoration: underline; }
 .brand-sub { color: var(--muted); font-weight: 600; letter-spacing: .01em; }
 .header-nav { display: flex; gap: 18px; font-size: 14px; }
 .header-nav a { color: var(--muted); }
+.env-badge { margin: 0 auto 0 10px; font-size: 11px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; background: var(--maint); color: #fff; }
+.env-note { margin: 24px 0 -8px; font-size: 13px; color: var(--muted); }
 
 /* Overall banner */
 .overall { margin: 28px 0 22px; border-radius: var(--radius); padding: 22px 24px; background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow); display: flex; align-items: center; gap: 16px; }

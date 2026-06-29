@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Thrivea Status — Development — Incidents</title>
+  <link href="https://status.thrivea.com/dev/feed.xml" rel="self"/>
+  <link href="https://status.thrivea.com/dev"/>
+  <id>https://status.thrivea.com/dev/</id>
+  <updated>2026-06-29T13:49:45.304Z</updated>
+
+</feed>

@@ -153,11 +153,18 @@ function renderPast(data) {
 
 async function load() {
   try {
-    const res = await fetch(`api/status.json?t=${Date.now()}`, { cache: "no-store" });
+    const base = window.STATUS_BASE || "api";
+    const res = await fetch(`${base}/status.json?t=${Date.now()}`, { cache: "no-store" });
     const data = await res.json();
-    document.title = `${data.overall === "operational" ? "✅" : "⚠️"} ${data.site?.title ?? "Thrivea Status"}`;
+    const label = data.environment?.label;
+    document.title = `${data.overall === "operational" ? "✅" : "⚠️"} ${data.site?.title ?? "Thrivea Status"}${label ? " — " + label : ""}`;
+    const badge = $("#envBadge");
+    if (badge) {
+      badge.textContent = label ?? "";
+      badge.hidden = !label;
+    }
     if (data.site?.brandColor) document.documentElement.style.setProperty("--brand", data.site.brandColor);
-    if (data.site?.homeUrl) $("#homeLink").href = data.site.homeUrl;
+    if (data.site?.homeUrl && $("#homeLink")) $("#homeLink").href = data.site.homeUrl;
     if (data.site?.supportEmail) {
       const link = $("#supportLink"); link.href = `mailto:${data.site.supportEmail}`; link.textContent = data.site.supportEmail;
     }

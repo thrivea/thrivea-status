@@ -90,7 +90,7 @@ No new NuGet dependency, no behavior change for k8s/probes. The monitor already 
 ## Posting incidents
 
 - **Automatic** — the monitor opens an incident when a component goes unhealthy and resolves it on recovery. Nothing to do.
-- **Manual / planned maintenance / ETA** — copy `incidents/TEMPLATE.json.example` to a real `incidents/<name>.json`, fill it in, push. See the template for the schema. ETAs ("kad će biti popravljeno") are human input — set the `eta` field and post `updates`.
+- **Manual / planned maintenance / ETA** — copy `incidents/TEMPLATE.json.example` to a real file **under the environment's folder**, e.g. `incidents/prod/db-maintenance.json` (or `incidents/dev/…`), fill it in, push. See the template for the schema. ETAs ("kad će biti popravljeno") are human input — set the `eta` field and post `updates`.
 
 ## Local preview
 ```bash
@@ -98,5 +98,16 @@ node scripts/monitor.mjs      # run one probe cycle, writes api/*.json
 python3 -m http.server 8000   # then open http://localhost:8000
 ```
 
-## Dedicated / isolated environments
-Dedicated single-tenant deployments are intentionally **not** on this public page — they expect a private/separate status surface. Spin up a second instance of this repo (its own repo + domain) for those, or add another group in `config.json` only if that tenant is fine being listed publicly.
+## Environments
+The page is multi-environment. Each entry in `config.json → environments` renders its own page and writes its own data under `basePath`:
+
+| Environment | Page | Data | Audience |
+|---|---|---|---|
+| **prod** | `/` | `api/` | Public / clients |
+| **dev** | `/dev/` | `api/dev/` | Internal team (`noindex`, not linked from prod) |
+
+The single `uptime` workflow probes **all** environments each run. To add **qa** or another environment, append an object to `environments` (copy the `dev` block, change `id`, `basePath`, `pagePath`, `monitors[].url`) and add a matching `pagePath/index.html` (copy `dev/index.html`, adjust `window.STATUS_BASE` and the feed link). No workflow changes needed.
+
+**Dev reachability:** dev's `/healthz` is publicly reachable, so no infra change is required. Dev App Service can go idle, so the monitor retries once on a failed poll to absorb cold-start blips. If false "down" alerts persist, enable **Always On** on the dev App Service.
+
+Dedicated single-tenant / bank deployments are intentionally **not** added here — they expect a private/separate status surface (spin up a second instance of this repo with its own repo + domain).
