@@ -8,11 +8,16 @@
       "componentIds": [
         "database"
       ],
-      "status": "investigating",
+      "status": "resolved",
       "startedAt": "2026-06-30T20:13:19.732Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-06-30T20:57:51.955Z",
       "eta": null,
       "updates": [
+        {
+          "at": "2026-06-30T20:57:51.955Z",
+          "status": "resolved",
+          "body": "Database has recovered and is fully operational again. Automated monitoring confirms healthy responses."
+        },
         {
           "at": "2026-06-30T20:13:19.732Z",
           "status": "investigating",
@@ -28,11 +33,16 @@
       "componentIds": [
         "notifications"
       ],
-      "status": "investigating",
+      "status": "resolved",
       "startedAt": "2026-06-30T20:13:19.732Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-06-30T20:57:51.955Z",
       "eta": null,
       "updates": [
+        {
+          "at": "2026-06-30T20:57:51.955Z",
+          "status": "resolved",
+          "body": "Notifications & Email has recovered and is fully operational again. Automated monitoring confirms healthy responses."
+        },
         {
           "at": "2026-06-30T20:13:19.732Z",
           "status": "investigating",
@@ -48,11 +58,16 @@
       "componentIds": [
         "organization"
       ],
-      "status": "investigating",
+      "status": "resolved",
       "startedAt": "2026-06-30T20:13:19.732Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-06-30T20:57:51.955Z",
       "eta": null,
       "updates": [
+        {
+          "at": "2026-06-30T20:57:51.955Z",
+          "status": "resolved",
+          "body": "HR & Organization has recovered and is fully operational again. Automated monitoring confirms healthy responses."
+        },
         {
           "at": "2026-06-30T20:13:19.732Z",
           "status": "investigating",
@@ -68,11 +83,16 @@
       "componentIds": [
         "networking"
       ],
-      "status": "investigating",
+      "status": "resolved",
       "startedAt": "2026-06-30T20:13:19.732Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-06-30T20:57:51.955Z",
       "eta": null,
       "updates": [
+        {
+          "at": "2026-06-30T20:57:51.955Z",
+          "status": "resolved",
+          "body": "Social Feed has recovered and is fully operational again. Automated monitoring confirms healthy responses."
+        },
         {
           "at": "2026-06-30T20:13:19.732Z",
           "status": "investigating",
@@ -88,11 +108,16 @@
       "componentIds": [
         "auth"
       ],
-      "status": "investigating",
+      "status": "resolved",
       "startedAt": "2026-06-30T20:13:19.732Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-06-30T20:57:51.955Z",
       "eta": null,
       "updates": [
+        {
+          "at": "2026-06-30T20:57:51.955Z",
+          "status": "resolved",
+          "body": "Authentication & SSO has recovered and is fully operational again. Automated monitoring confirms healthy responses."
+        },
         {
           "at": "2026-06-30T20:13:19.732Z",
           "status": "investigating",
@@ -108,11 +133,16 @@
       "componentIds": [
         "api"
       ],
-      "status": "investigating",
+      "status": "resolved",
       "startedAt": "2026-06-30T20:13:19.732Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-06-30T20:57:51.955Z",
       "eta": null,
       "updates": [
+        {
+          "at": "2026-06-30T20:57:51.955Z",
+          "status": "resolved",
+          "body": "Application API has recovered and is fully operational again. Automated monitoring confirms healthy responses."
+        },
         {
           "at": "2026-06-30T20:13:19.732Z",
           "status": "investigating",

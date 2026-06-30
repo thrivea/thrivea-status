@@ -4,47 +4,47 @@
   <link href="https://status.thrivea.com/feed.xml" rel="self"/>
   <link href="https://status.thrivea.com"/>
   <id>https://status.thrivea.com/</id>
-  <updated>2026-06-30T20:13:19.732Z</updated>
+  <updated>2026-06-30T20:57:51.955Z</updated>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:auto-prod-database-1782850399732</id>
-    <title>Database degraded performance</title>
-    <updated>2026-06-30T20:13:19.732Z</updated>
+    <title>Database degraded performance (resolved)</title>
+    <updated>2026-06-30T20:57:51.955Z</updated>
     <link href="https://status.thrivea.com/#auto-prod-database-1782850399732"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Database is responding slowly or partially. Our team has been alerted.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;resolved&lt;/strong&gt; — Database has recovered and is fully operational again. Automated monitoring confirms healthy responses.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Database is responding slowly or partially. Our team has been alerted.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:auto-prod-notifications-1782850399732</id>
-    <title>Notifications &amp; Email degraded performance</title>
-    <updated>2026-06-30T20:13:19.732Z</updated>
+    <title>Notifications &amp; Email degraded performance (resolved)</title>
+    <updated>2026-06-30T20:57:51.955Z</updated>
     <link href="https://status.thrivea.com/#auto-prod-notifications-1782850399732"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Notifications &amp;amp; Email is responding slowly or partially. Our team has been alerted.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;resolved&lt;/strong&gt; — Notifications &amp;amp; Email has recovered and is fully operational again. Automated monitoring confirms healthy responses.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Notifications &amp;amp; Email is responding slowly or partially. Our team has been alerted.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:auto-prod-organization-1782850399732</id>
-    <title>HR &amp; Organization degraded performance</title>
-    <updated>2026-06-30T20:13:19.732Z</updated>
+    <title>HR &amp; Organization degraded performance (resolved)</title>
+    <updated>2026-06-30T20:57:51.955Z</updated>
     <link href="https://status.thrivea.com/#auto-prod-organization-1782850399732"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that HR &amp;amp; Organization is responding slowly or partially. Our team has been alerted.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;resolved&lt;/strong&gt; — HR &amp;amp; Organization has recovered and is fully operational again. Automated monitoring confirms healthy responses.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that HR &amp;amp; Organization is responding slowly or partially. Our team has been alerted.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:auto-prod-networking-1782850399732</id>
-    <title>Social Feed degraded performance</title>
-    <updated>2026-06-30T20:13:19.732Z</updated>
+    <title>Social Feed degraded performance (resolved)</title>
+    <updated>2026-06-30T20:57:51.955Z</updated>
     <link href="https://status.thrivea.com/#auto-prod-networking-1782850399732"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Social Feed is responding slowly or partially. Our team has been alerted.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;resolved&lt;/strong&gt; — Social Feed has recovered and is fully operational again. Automated monitoring confirms healthy responses.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Social Feed is responding slowly or partially. Our team has been alerted.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:auto-prod-auth-1782850399732</id>
-    <title>Authentication &amp; SSO degraded performance</title>
-    <updated>2026-06-30T20:13:19.732Z</updated>
+    <title>Authentication &amp; SSO degraded performance (resolved)</title>
+    <updated>2026-06-30T20:57:51.955Z</updated>
     <link href="https://status.thrivea.com/#auto-prod-auth-1782850399732"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Authentication &amp;amp; SSO is responding slowly or partially. Our team has been alerted.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;resolved&lt;/strong&gt; — Authentication &amp;amp; SSO has recovered and is fully operational again. Automated monitoring confirms healthy responses.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Authentication &amp;amp; SSO is responding slowly or partially. Our team has been alerted.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:auto-prod-api-1782850399732</id>
-    <title>Application API degraded performance</title>
-    <updated>2026-06-30T20:13:19.732Z</updated>
+    <title>Application API degraded performance (resolved)</title>
+    <updated>2026-06-30T20:57:51.955Z</updated>
     <link href="https://status.thrivea.com/#auto-prod-api-1782850399732"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Application API is responding slowly or partially. Our team has been alerted.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;resolved&lt;/strong&gt; — Application API has recovered and is fully operational again. Automated monitoring confirms healthy responses.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Application API is responding slowly or partially. Our team has been alerted.&lt;/p&gt;</content>
   </entry>
 </feed>
