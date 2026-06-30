@@ -1,3 +1,124 @@
 {
-  "incidents": []
+  "incidents": [
+    {
+      "id": "auto-prod-database-1782850399732",
+      "source": "auto",
+      "title": "Database degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "database"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-06-30T20:13:19.732Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-06-30T20:13:19.732Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Database is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-notifications-1782850399732",
+      "source": "auto",
+      "title": "Notifications & Email degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "notifications"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-06-30T20:13:19.732Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-06-30T20:13:19.732Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Notifications & Email is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-organization-1782850399732",
+      "source": "auto",
+      "title": "HR & Organization degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "organization"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-06-30T20:13:19.732Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-06-30T20:13:19.732Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that HR & Organization is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-networking-1782850399732",
+      "source": "auto",
+      "title": "Social Feed degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "networking"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-06-30T20:13:19.732Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-06-30T20:13:19.732Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Social Feed is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-auth-1782850399732",
+      "source": "auto",
+      "title": "Authentication & SSO degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "auth"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-06-30T20:13:19.732Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-06-30T20:13:19.732Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Authentication & SSO is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-api-1782850399732",
+      "source": "auto",
+      "title": "Application API degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "api"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-06-30T20:13:19.732Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-06-30T20:13:19.732Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Application API is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    }
+  ]
 }
