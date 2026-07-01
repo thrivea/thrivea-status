@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T16:37:26.156Z",
-  "overall": "operational",
+  "generatedAt": "2026-07-01T17:24:46.485Z",
+  "overall": "partial_outage",
   "environment": {
     "id": "dev",
     "name": "Thrivea — Development",
@@ -29,8 +29,8 @@
       "name": "Application API",
       "description": "Core gRPC/REST API on the dev environment.",
       "group": "cloud",
-      "status": "operational",
-      "latencyMs": 606,
+      "status": "down",
+      "latencyMs": 10001,
       "history": [
         {
           "date": "2026-04-03",
@@ -394,20 +394,20 @@
         },
         {
           "date": "2026-07-01",
-          "uptime": 1,
-          "down": 0,
+          "uptime": 0.9375,
+          "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 1
+      "uptime90": 0.9791666666666666
     },
     {
       "id": "auth",
       "name": "Authentication & SSO",
       "description": "Sign-in, identity, single sign-on and workspace federation.",
       "group": "cloud",
-      "status": "operational",
-      "latencyMs": 611,
+      "status": "degraded",
+      "latencyMs": 14845,
       "history": [
         {
           "date": "2026-04-03",
@@ -771,20 +771,20 @@
         },
         {
           "date": "2026-07-01",
-          "uptime": 1,
+          "uptime": 0.9375,
           "down": 0,
-          "degraded": 0
+          "degraded": 1
         }
       ],
-      "uptime90": 1
+      "uptime90": 0.9791666666666666
     },
     {
       "id": "networking",
       "name": "Social Feed",
       "description": "Company feed, posts, audience and messaging.",
       "group": "cloud",
-      "status": "operational",
-      "latencyMs": 611,
+      "status": "degraded",
+      "latencyMs": 14845,
       "history": [
         {
           "date": "2026-04-03",
@@ -1148,20 +1148,20 @@
         },
         {
           "date": "2026-07-01",
-          "uptime": 1,
+          "uptime": 0.9375,
           "down": 0,
-          "degraded": 0
+          "degraded": 1
         }
       ],
-      "uptime90": 1
+      "uptime90": 0.9791666666666666
     },
     {
       "id": "organization",
       "name": "HR & Organization",
       "description": "Employee records, jobs, compensation and workflows.",
       "group": "cloud",
-      "status": "operational",
-      "latencyMs": 611,
+      "status": "degraded",
+      "latencyMs": 14845,
       "history": [
         {
           "date": "2026-04-03",
@@ -1525,20 +1525,20 @@
         },
         {
           "date": "2026-07-01",
-          "uptime": 1,
+          "uptime": 0.9375,
           "down": 0,
-          "degraded": 0
+          "degraded": 1
         }
       ],
-      "uptime90": 1
+      "uptime90": 0.9791666666666666
     },
     {
       "id": "notifications",
       "name": "Notifications & Email",
       "description": "Email, push and in-app notifications.",
       "group": "cloud",
-      "status": "operational",
-      "latencyMs": 611,
+      "status": "degraded",
+      "latencyMs": 14845,
       "history": [
         {
           "date": "2026-04-03",
@@ -1902,20 +1902,20 @@
         },
         {
           "date": "2026-07-01",
-          "uptime": 1,
+          "uptime": 0.9375,
           "down": 0,
-          "degraded": 0
+          "degraded": 1
         }
       ],
-      "uptime90": 1
+      "uptime90": 0.9791666666666666
     },
     {
       "id": "database",
       "name": "Database",
       "description": "Primary PostgreSQL data store.",
       "group": "cloud",
-      "status": "operational",
-      "latencyMs": 611,
+      "status": "degraded",
+      "latencyMs": 14845,
       "history": [
         {
           "date": "2026-04-03",
@@ -2279,12 +2279,12 @@
         },
         {
           "date": "2026-07-01",
-          "uptime": 1,
+          "uptime": 0.9375,
           "down": 0,
-          "degraded": 0
+          "degraded": 1
         }
       ],
-      "uptime90": 1
+      "uptime90": 0.9791666666666666
     },
     {
       "id": "background",
@@ -2292,7 +2292,7 @@
       "description": "Async processing: projections, schedulers, integrations.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 611,
+      "latencyMs": 14845,
       "history": [
         {
           "date": "2026-04-03",
@@ -2664,6 +2664,248 @@
       "uptime90": 1
     }
   ],
-  "activeIncidents": [],
-  "recentIncidents": []
+  "activeIncidents": [
+    {
+      "id": "auto-dev-database-1782926686485",
+      "source": "auto",
+      "title": "Database degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "database"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-01T17:24:46.485Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-01T17:24:46.485Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Database is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-dev-notifications-1782926686485",
+      "source": "auto",
+      "title": "Notifications & Email degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "notifications"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-01T17:24:46.485Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-01T17:24:46.485Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Notifications & Email is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-dev-organization-1782926686485",
+      "source": "auto",
+      "title": "HR & Organization degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "organization"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-01T17:24:46.485Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-01T17:24:46.485Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that HR & Organization is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-dev-networking-1782926686485",
+      "source": "auto",
+      "title": "Social Feed degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "networking"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-01T17:24:46.485Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-01T17:24:46.485Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Social Feed is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-dev-auth-1782926686485",
+      "source": "auto",
+      "title": "Authentication & SSO degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "auth"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-01T17:24:46.485Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-01T17:24:46.485Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Authentication & SSO is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-dev-api-1782926686485",
+      "source": "auto",
+      "title": "Application API outage",
+      "impact": "major",
+      "componentIds": [
+        "api"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-01T17:24:46.485Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-01T17:24:46.485Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    }
+  ],
+  "recentIncidents": [
+    {
+      "id": "auto-dev-database-1782926686485",
+      "source": "auto",
+      "title": "Database degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "database"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-01T17:24:46.485Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-01T17:24:46.485Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Database is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-dev-notifications-1782926686485",
+      "source": "auto",
+      "title": "Notifications & Email degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "notifications"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-01T17:24:46.485Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-01T17:24:46.485Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Notifications & Email is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-dev-organization-1782926686485",
+      "source": "auto",
+      "title": "HR & Organization degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "organization"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-01T17:24:46.485Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-01T17:24:46.485Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that HR & Organization is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-dev-networking-1782926686485",
+      "source": "auto",
+      "title": "Social Feed degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "networking"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-01T17:24:46.485Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-01T17:24:46.485Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Social Feed is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-dev-auth-1782926686485",
+      "source": "auto",
+      "title": "Authentication & SSO degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "auth"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-01T17:24:46.485Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-01T17:24:46.485Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Authentication & SSO is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-dev-api-1782926686485",
+      "source": "auto",
+      "title": "Application API outage",
+      "impact": "major",
+      "componentIds": [
+        "api"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-01T17:24:46.485Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-01T17:24:46.485Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    }
+  ]
 }
