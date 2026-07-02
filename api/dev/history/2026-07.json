@@ -5,6 +5,12 @@
       "total": 26,
       "down": 1,
       "degraded": 0
+    },
+    "2026-07-02": {
+      "up": 1,
+      "total": 1,
+      "down": 0,
+      "degraded": 0
     }
   },
   "auth": {
@@ -13,6 +19,12 @@
       "total": 26,
       "down": 0,
       "degraded": 1
+    },
+    "2026-07-02": {
+      "up": 1,
+      "total": 1,
+      "down": 0,
+      "degraded": 0
     }
   },
   "networking": {
@@ -21,6 +33,12 @@
       "total": 26,
       "down": 0,
       "degraded": 1
+    },
+    "2026-07-02": {
+      "up": 1,
+      "total": 1,
+      "down": 0,
+      "degraded": 0
     }
   },
   "organization": {
@@ -29,6 +47,12 @@
       "total": 26,
       "down": 0,
       "degraded": 1
+    },
+    "2026-07-02": {
+      "up": 1,
+      "total": 1,
+      "down": 0,
+      "degraded": 0
     }
   },
   "notifications": {
@@ -37,6 +61,12 @@
       "total": 26,
       "down": 0,
       "degraded": 1
+    },
+    "2026-07-02": {
+      "up": 1,
+      "total": 1,
+      "down": 0,
+      "degraded": 0
     }
   },
   "database": {
@@ -45,12 +75,24 @@
       "total": 26,
       "down": 0,
       "degraded": 1
+    },
+    "2026-07-02": {
+      "up": 1,
+      "total": 1,
+      "down": 0,
+      "degraded": 0
     }
   },
   "background": {
     "2026-07-01": {
       "up": 26,
       "total": 26,
+      "down": 0,
+      "degraded": 0
+    },
+    "2026-07-02": {
+      "up": 1,
+      "total": 1,
       "down": 0,
       "degraded": 0
     }
