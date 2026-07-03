@@ -1,6 +1,26 @@
 {
   "incidents": [
     {
+      "id": "auto-prod-api-1783069821118",
+      "source": "auto",
+      "title": "Application API degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "api"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T09:10:21.118Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T09:10:21.118Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Application API is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
       "id": "auto-prod-background-1783051830960",
       "source": "auto",
       "title": "Background Jobs outage",
