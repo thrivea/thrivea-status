@@ -113,6 +113,39 @@ function evaluate(monitor, result) {
   return out;
 }
 
+// Sentry error-rate signal. Queries the error event count over a short window
+// and maps it to a component state. Fail-open: any missing token / API error /
+// timeout returns null so Sentry being unreachable never marks the app down.
+async function sentryErrorState(env) {
+  const s = env.sentry;
+  if (!s) return null;
+  const token = process.env.SENTRY_AUTH_TOKEN;
+  if (!token) return null;
+
+  const base = (s.regionUrl || 'https://us.sentry.io').replace(/\/+$/, '');
+  const query = `${s.query || 'event.type:error'} environment:${s.environment}`;
+  const url = `${base}/api/0/organizations/${s.org}/events/`
+    + `?dataset=errors&field=count()&per_page=1&referrer=thrivea-status-monitor`
+    + `&statsPeriod=${encodeURIComponent(s.statsPeriod || '10m')}&query=${encodeURIComponent(query)}`;
+
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 12000);
+  try {
+    const res = await fetch(url, { headers: { Authorization: `Bearer ${token}` }, signal: ctrl.signal });
+    if (!res.ok) { console.log(`[${env.id}/sentry] HTTP ${res.status}`); return null; }
+    const json = await res.json();
+    const count = Number(json?.data?.[0]?.['count()'] ?? 0);
+    const state = count >= s.criticalCount ? 'down' : count >= s.warnCount ? 'degraded' : 'operational';
+    console.log(`[${env.id}/sentry] errors(${s.statsPeriod || '10m'})=${count} warn=${s.warnCount} crit=${s.criticalCount} -> ${state}`);
+    return { state, count };
+  } catch (err) {
+    console.log(`[${env.id}/sentry] ${String((err && err.message) || err)}`);
+    return null;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 // Load operator-authored incidents from incidents/<envId>/*.json.
 async function loadManualIncidents(root, envId) {
   const dir = path.join(root, 'incidents', envId);
@@ -152,6 +185,15 @@ async function runEnvironment(env, config, now) {
     for (const [id, state] of Object.entries(evaluated)) {
       componentState[id] = worse(componentState[id] ?? 'operational', state);
       if (Number.isFinite(r.latency)) componentLatency[id] = Math.max(componentLatency[id] ?? 0, r.latency);
+    }
+  }
+
+  // Fold in the Sentry error-rate signal — real user-experienced failures
+  // (gRPC errors, timeouts) the health endpoints can't see. Fail-open: null = no change.
+  const sentry = await sentryErrorState(env);
+  if (sentry) {
+    for (const id of env.sentry.affects ?? []) {
+      componentState[id] = worse(componentState[id] ?? 'operational', sentry.state);
     }
   }
 

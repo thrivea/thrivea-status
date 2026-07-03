@@ -20,6 +20,7 @@
       "label": null,
       "basePath": "api",
       "pagePath": "",
+      "sentry": { "org": "thrivea-doo", "regionUrl": "https://us.sentry.io", "environment": "production", "query": "event.type:error", "statsPeriod": "10m", "warnCount": 80, "criticalCount": 200, "affects": ["api"] },
       "groups": [
         { "id": "cloud", "name": "Thrivea Cloud (app.thrivea.com)" }
       ],
@@ -58,6 +59,7 @@
       "label": "Development",
       "basePath": "api/dev",
       "pagePath": "dev",
+      "sentry": { "org": "thrivea-doo", "regionUrl": "https://us.sentry.io", "environment": "dev", "query": "event.type:error", "statsPeriod": "10m", "warnCount": 40, "criticalCount": 120, "affects": ["api"] },
       "groups": [
         { "id": "cloud", "name": "Development (app-thrivea-dev)" }
       ],
