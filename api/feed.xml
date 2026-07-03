@@ -4,7 +4,7 @@
   <link href="https://status.thrivea.com/feed.xml" rel="self"/>
   <link href="https://status.thrivea.com"/>
   <id>https://status.thrivea.com/</id>
-  <updated>2026-07-03T05:34:26.616Z</updated>
+  <updated>2026-07-03T07:22:56.834Z</updated>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:auto-prod-background-1783051830960</id>
     <title>Background Jobs outage (resolved)</title>
@@ -105,10 +105,10 @@
   </entry>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:2026-07-03-elevated-errors</id>
-    <title>Service disruption — platform unavailable</title>
-    <updated>2026-07-03T01:43:00.000Z</updated>
+    <title>Service disruption — platform unavailable (resolved)</title>
+    <updated>2026-07-03T07:21:00.000Z</updated>
     <link href="https://status.thrivea.com/#2026-07-03-elevated-errors"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;identified&lt;/strong&gt; — We have identified the cause: the application is currently unable to reach its database, so the platform is unavailable. The database itself is healthy; we are working to restore connectivity as our top priority.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — We are investigating elevated errors and failed or slow requests affecting some users, related to database connectivity. Parts of the app may be intermittently unavailable. We will post updates as we learn more.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;resolved&lt;/strong&gt; — Service has been restored. The application is reaching its database again and all endpoints are responding normally. We are monitoring to confirm full stability and will follow up with a post-incident review.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;identified&lt;/strong&gt; — We have identified the cause: the application is currently unable to reach its database, so the platform is unavailable. The database itself is healthy; we are working to restore connectivity as our top priority.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — We are investigating elevated errors and failed or slow requests affecting some users, related to database connectivity. Parts of the app may be intermittently unavailable. We will post updates as we learn more.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:auto-prod-database-1782850399732</id>

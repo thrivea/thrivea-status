@@ -352,9 +352,14 @@
     },
     {
       "source": "manual",
-      "resolvedAt": null,
+      "resolvedAt": "2026-07-03T07:21:00.000Z",
       "eta": null,
       "updates": [
+        {
+          "at": "2026-07-03T07:21:00.000Z",
+          "status": "resolved",
+          "body": "Service has been restored. The application is reaching its database again and all endpoints are responding normally. We are monitoring to confirm full stability and will follow up with a post-incident review."
+        },
         {
           "at": "2026-07-03T01:43:00.000Z",
           "status": "identified",
@@ -378,7 +383,7 @@
         "database",
         "background"
       ],
-      "status": "identified",
+      "status": "resolved",
       "startedAt": "2026-07-03T01:05:00.000Z"
     },
     {
