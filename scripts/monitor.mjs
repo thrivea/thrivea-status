@@ -252,36 +252,84 @@ async function runEnvironment(env, config, now) {
   const notifications = [];
 
   const impactOf = (state) => (state === 'down' ? 'major' : state === 'degraded' ? 'minor' : 'none');
-  const openAutoFor = (id) => incidents.find((i) => i.source === 'auto' && !i.resolvedAt && i.componentIds.includes(id));
+  // Auto-incidents track PROBE-detected status only — never the manual override,
+  // otherwise declaring a manual incident would spawn duplicate auto ones.
+  const probeStatusOf = (id) => componentState[id] ?? 'operational';
+  const openAutoFor = (id) => incidents.find((i) => i.source === 'auto' && !i.aggregate && !i.resolvedAt && i.componentIds.includes(id));
+  const openAggregate = () => incidents.find((i) => i.source === 'auto' && i.aggregate && !i.resolvedAt);
+  const resolveAuto = (incident, body) => {
+    incident.status = 'resolved';
+    incident.resolvedAt = nowIso;
+    incident.updates.unshift({ at: nowIso, status: 'resolved', body });
+  };
 
-  for (const c of components) {
-    // Auto-incidents track PROBE-detected status only — never the manual override
-    // above, otherwise declaring a manual incident would spawn duplicate auto ones.
-    const probeStatus = componentState[c.id] ?? 'operational';
-    const open = openAutoFor(c.id);
-    if (probeStatus !== 'operational' && !open) {
+  const affected = components.filter((c) => probeStatusOf(c.id) !== 'operational');
+  const COLLAPSE_THRESHOLD = 4; // this many probe-affected components => ONE aggregate incident, not N
+
+  if (affected.length >= COLLAPSE_THRESHOLD) {
+    // Platform-wide outage: collapse into a single incident and absorb any
+    // per-component auto-incidents so the page isn't a wall of duplicate cards.
+    for (let k = incidents.length - 1; k >= 0; k--) {
+      const i = incidents[k];
+      if (i.source === 'auto' && !i.aggregate && !i.resolvedAt) incidents.splice(k, 1);
+    }
+    const impact = impactOf(affected.reduce((acc, c) => worse(acc, probeStatusOf(c.id)), 'operational'));
+    const title = impact === 'major' ? 'Major service outage' : 'Multiple services degraded';
+    const names = affected.map((c) => c.name).join(', ');
+    const agg = openAggregate();
+    if (!agg) {
       const incident = {
-        id: `auto-${env.id}-${c.id}-${now.getTime()}`,
+        id: `auto-${env.id}-aggregate-${now.getTime()}`,
         source: 'auto',
-        title: `${c.name} ${probeStatus === 'down' ? 'outage' : 'degraded performance'}`,
-        impact: impactOf(probeStatus),
-        componentIds: [c.id],
+        aggregate: true,
+        title,
+        impact,
+        componentIds: affected.map((c) => c.id),
         status: 'investigating',
         startedAt: nowIso,
         resolvedAt: null,
         eta: null,
-        updates: [{ at: nowIso, status: 'investigating', body: `Automated monitoring detected that ${c.name} is ${probeStatus === 'down' ? 'unreachable / failing health checks' : 'responding slowly or partially'}. Our team has been alerted.` }]
+        updates: [{ at: nowIso, status: 'investigating', body: `Automated monitoring detected that multiple services are affected (${names}). Our team has been alerted.` }]
       };
       incidents.unshift(incident);
       notifications.push({ kind: 'opened', incident });
-    } else if (probeStatus === 'operational' && open) {
-      open.status = 'resolved';
-      open.resolvedAt = nowIso;
-      open.updates.unshift({ at: nowIso, status: 'resolved', body: `${c.name} has recovered and is fully operational again. Automated monitoring confirms healthy responses.` });
-      notifications.push({ kind: 'resolved', incident: open });
-    } else if (probeStatus !== 'operational' && open && impactOf(probeStatus) !== open.impact) {
-      open.impact = impactOf(probeStatus);
-      open.updates.unshift({ at: nowIso, status: open.status, body: `Impact updated: ${c.name} is now ${c.status}.` });
+    } else {
+      agg.componentIds = affected.map((c) => c.id);
+      agg.impact = impact;
+      agg.title = title;
+    }
+  } else {
+    // Isolated issue(s): resolve any aggregate, then manage per-component incidents.
+    const agg = openAggregate();
+    if (agg) {
+      resolveAuto(agg, 'The platform-wide outage has cleared. Any remaining component issues are tracked individually.');
+      notifications.push({ kind: 'resolved', incident: agg });
+    }
+    for (const c of components) {
+      const probeStatus = probeStatusOf(c.id);
+      const open = openAutoFor(c.id);
+      if (probeStatus !== 'operational' && !open) {
+        const incident = {
+          id: `auto-${env.id}-${c.id}-${now.getTime()}`,
+          source: 'auto',
+          title: `${c.name} ${probeStatus === 'down' ? 'outage' : 'degraded performance'}`,
+          impact: impactOf(probeStatus),
+          componentIds: [c.id],
+          status: 'investigating',
+          startedAt: nowIso,
+          resolvedAt: null,
+          eta: null,
+          updates: [{ at: nowIso, status: 'investigating', body: `Automated monitoring detected that ${c.name} is ${probeStatus === 'down' ? 'unreachable / failing health checks' : 'responding slowly or partially'}. Our team has been alerted.` }]
+        };
+        incidents.unshift(incident);
+        notifications.push({ kind: 'opened', incident });
+      } else if (probeStatus === 'operational' && open) {
+        resolveAuto(open, `${c.name} has recovered and is fully operational again. Automated monitoring confirms healthy responses.`);
+        notifications.push({ kind: 'resolved', incident: open });
+      } else if (probeStatus !== 'operational' && open && impactOf(probeStatus) !== open.impact) {
+        open.impact = impactOf(probeStatus);
+        open.updates.unshift({ at: nowIso, status: open.status, body: `Impact updated: ${c.name} is now ${probeStatus}.` });
+      }
     }
   }
 
