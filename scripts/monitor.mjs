@@ -132,7 +132,11 @@ async function sentryErrorState(env) {
   const timer = setTimeout(() => ctrl.abort(), 12000);
   try {
     const res = await fetch(url, { headers: { Authorization: `Bearer ${token}` }, signal: ctrl.signal });
-    if (!res.ok) { console.log(`[${env.id}/sentry] HTTP ${res.status}`); return null; }
+    if (!res.ok) {
+      const detail = await res.text().catch(() => '');
+      console.log(`[${env.id}/sentry] HTTP ${res.status} ${detail.slice(0, 200)}`);
+      return null;
+    }
     const json = await res.json();
     const count = Number(json?.data?.[0]?.['count()'] ?? 0);
     const state = count >= s.criticalCount ? 'down' : count >= s.warnCount ? 'degraded' : 'operational';
