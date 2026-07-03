@@ -1,13 +1,18 @@
 {
   "id": "2026-07-03-elevated-errors",
-  "title": "Elevated errors affecting parts of the platform",
+  "title": "Service disruption — platform unavailable",
   "impact": "major",
-  "componentIds": ["api", "organization"],
-  "status": "investigating",
+  "componentIds": ["api", "auth", "networking", "organization", "notifications", "database", "background"],
+  "status": "identified",
   "startedAt": "2026-07-03T01:05:00.000Z",
   "resolvedAt": null,
   "eta": null,
   "updates": [
+    {
+      "at": "2026-07-03T01:43:00.000Z",
+      "status": "identified",
+      "body": "We have identified the cause: the application is currently unable to reach its database, so the platform is unavailable. The database itself is healthy; we are working to restore connectivity as our top priority."
+    },
     {
       "at": "2026-07-03T01:12:00.000Z",
       "status": "investigating",
