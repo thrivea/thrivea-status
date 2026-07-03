@@ -1,0 +1,17 @@
+{
+  "id": "2026-07-03-elevated-errors",
+  "title": "Elevated errors affecting parts of the platform",
+  "impact": "major",
+  "componentIds": ["api", "organization"],
+  "status": "investigating",
+  "startedAt": "2026-07-03T01:05:00.000Z",
+  "resolvedAt": null,
+  "eta": null,
+  "updates": [
+    {
+      "at": "2026-07-03T01:12:00.000Z",
+      "status": "investigating",
+      "body": "We are investigating elevated errors and failed or slow requests affecting some users, related to database connectivity. Parts of the app may be intermittently unavailable. We will post updates as we learn more."
+    }
+  ]
+}

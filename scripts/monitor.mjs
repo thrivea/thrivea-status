@@ -113,6 +113,18 @@ function evaluate(monitor, result) {
   return out;
 }
 
+// Load operator-authored incidents from incidents/<envId>/*.json.
+async function loadManualIncidents(root, envId) {
+  const dir = path.join(root, 'incidents', envId);
+  try {
+    const files = (await fs.readdir(dir)).filter((f) => f.endsWith('.json'));
+    const loaded = await Promise.all(files.map((f) => readJson(path.join(dir, f), null)));
+    return loaded.filter(Boolean).map((m) => ({ source: 'manual', resolvedAt: null, eta: null, updates: [], ...m }));
+  } catch {
+    return [];
+  }
+}
+
 // --- Run one environment ---------------------------------------------------
 async function runEnvironment(env, config, now) {
   const nowIso = now.toISOString();
@@ -143,13 +155,28 @@ async function runEnvironment(env, config, now) {
     }
   }
 
+  // Manual incidents can override component status — the operator escape hatch
+  // for outages the automated probes miss (e.g. a single-shard DB failure that
+  // the aggregate health endpoint still reports as healthy). An active manual
+  // incident forces its components to down (major) or degraded (minor), which
+  // then flows into the overall banner.
+  const manual = await loadManualIncidents(ROOT, env.id);
+  const manualOverride = {};
+  for (const incident of manual) {
+    if (incident.resolvedAt) continue;
+    const forced = incident.impact === 'major' ? 'down' : incident.impact === 'minor' ? 'degraded' : 'operational';
+    for (const componentId of incident.componentIds ?? []) {
+      manualOverride[componentId] = worse(manualOverride[componentId] ?? 'operational', forced);
+    }
+  }
+
   // 3. Snapshot.
   const components = env.components.map((c) => ({
     id: c.id,
     name: c.name,
     description: c.description,
     group: c.group,
-    status: componentState[c.id] ?? 'operational',
+    status: worse(componentState[c.id] ?? 'operational', manualOverride[c.id] ?? 'operational'),
     latencyMs: componentLatency[c.id] ?? null
   }));
 
@@ -182,42 +209,37 @@ async function runEnvironment(env, config, now) {
   const openAutoFor = (id) => incidents.find((i) => i.source === 'auto' && !i.resolvedAt && i.componentIds.includes(id));
 
   for (const c of components) {
+    // Auto-incidents track PROBE-detected status only — never the manual override
+    // above, otherwise declaring a manual incident would spawn duplicate auto ones.
+    const probeStatus = componentState[c.id] ?? 'operational';
     const open = openAutoFor(c.id);
-    if (c.status !== 'operational' && !open) {
+    if (probeStatus !== 'operational' && !open) {
       const incident = {
         id: `auto-${env.id}-${c.id}-${now.getTime()}`,
         source: 'auto',
-        title: `${c.name} ${c.status === 'down' ? 'outage' : 'degraded performance'}`,
-        impact: impactOf(c.status),
+        title: `${c.name} ${probeStatus === 'down' ? 'outage' : 'degraded performance'}`,
+        impact: impactOf(probeStatus),
         componentIds: [c.id],
         status: 'investigating',
         startedAt: nowIso,
         resolvedAt: null,
         eta: null,
-        updates: [{ at: nowIso, status: 'investigating', body: `Automated monitoring detected that ${c.name} is ${c.status === 'down' ? 'unreachable / failing health checks' : 'responding slowly or partially'}. Our team has been alerted.` }]
+        updates: [{ at: nowIso, status: 'investigating', body: `Automated monitoring detected that ${c.name} is ${probeStatus === 'down' ? 'unreachable / failing health checks' : 'responding slowly or partially'}. Our team has been alerted.` }]
       };
       incidents.unshift(incident);
       notifications.push({ kind: 'opened', incident });
-    } else if (c.status === 'operational' && open) {
+    } else if (probeStatus === 'operational' && open) {
       open.status = 'resolved';
       open.resolvedAt = nowIso;
       open.updates.unshift({ at: nowIso, status: 'resolved', body: `${c.name} has recovered and is fully operational again. Automated monitoring confirms healthy responses.` });
       notifications.push({ kind: 'resolved', incident: open });
-    } else if (c.status !== 'operational' && open && impactOf(c.status) !== open.impact) {
-      open.impact = impactOf(c.status);
+    } else if (probeStatus !== 'operational' && open && impactOf(probeStatus) !== open.impact) {
+      open.impact = impactOf(probeStatus);
       open.updates.unshift({ at: nowIso, status: open.status, body: `Impact updated: ${c.name} is now ${c.status}.` });
     }
   }
 
-  // Merge manual incidents from incidents/<envId>/*.json (untouched by automation).
-  const manualDir = path.join(ROOT, 'incidents', env.id);
-  let manual = [];
-  try {
-    const files = (await fs.readdir(manualDir)).filter((f) => f.endsWith('.json'));
-    manual = await Promise.all(files.map((f) => readJson(path.join(manualDir, f), null)));
-    manual = manual.filter(Boolean).map((m) => ({ source: 'manual', resolvedAt: null, eta: null, updates: [], ...m }));
-  } catch { /* none */ }
-
+  // Manual incidents were loaded above (they also drive component status).
   const allIncidents = [...incidents.filter((i) => i.source === 'auto'), ...manual]
     .sort((a, b) => String(b.startedAt).localeCompare(String(a.startedAt)));
 
