@@ -6,7 +6,10 @@ name: uptime
 
 on:
   schedule:
-    - cron: "*/5 * * * *" # every 5 minutes (GitHub may batch under load)
+    # Every 10 min = 6 builds/hour. Each commit here triggers a GitHub Pages
+    # deployment, and Pages soft-limits ~10 builds/hour — */5 (12/hour) tripped
+    # "Deployment failed, try again later". Keep this at */10 or slower.
+    - cron: "*/10 * * * *"
   workflow_dispatch: {} # manual "Run workflow" button
   push:
     branches: [main]
