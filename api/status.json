@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-03T01:15:49.660Z",
-  "overall": "operational",
+  "generatedAt": "2026-07-03T01:16:32.991Z",
+  "overall": "partial_outage",
   "environment": {
     "id": "prod",
     "name": "Thrivea Cloud",
@@ -29,8 +29,8 @@
       "name": "Application API",
       "description": "Core gRPC/REST API that the Thrivea web app talks to.",
       "group": "cloud",
-      "status": "operational",
-      "latencyMs": 622,
+      "status": "down",
+      "latencyMs": 1601,
       "history": [
         {
           "date": "2026-04-05",
@@ -402,12 +402,12 @@
         },
         {
           "date": "2026-07-03",
-          "uptime": 1,
-          "down": 0,
+          "uptime": 0.75,
+          "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9947089947089947
+      "uptime90": 0.958994708994709
     },
     {
       "id": "auth",
@@ -415,7 +415,7 @@
       "description": "Sign-in, identity, single sign-on and workspace federation.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 7770,
+      "latencyMs": 1540,
       "history": [
         {
           "date": "2026-04-05",
@@ -800,7 +800,7 @@
       "description": "Company feed, posts, audience and messaging.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 7770,
+      "latencyMs": 1540,
       "history": [
         {
           "date": "2026-04-05",
@@ -1184,8 +1184,8 @@
       "name": "HR & Organization",
       "description": "Employee records, jobs, compensation and workflows.",
       "group": "cloud",
-      "status": "operational",
-      "latencyMs": 7770,
+      "status": "down",
+      "latencyMs": 1540,
       "history": [
         {
           "date": "2026-04-05",
@@ -1557,12 +1557,12 @@
         },
         {
           "date": "2026-07-03",
-          "uptime": 1,
-          "down": 0,
+          "uptime": 0.75,
+          "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9947089947089947
+      "uptime90": 0.958994708994709
     },
     {
       "id": "notifications",
@@ -1570,7 +1570,7 @@
       "description": "Email, push and in-app notifications.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 7770,
+      "latencyMs": 1540,
       "history": [
         {
           "date": "2026-04-05",
@@ -1955,7 +1955,7 @@
       "description": "Primary PostgreSQL data store.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 7770,
+      "latencyMs": 1540,
       "history": [
         {
           "date": "2026-04-05",
@@ -2340,7 +2340,7 @@
       "description": "Async processing: projections, schedulers, integrations.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 7770,
+      "latencyMs": 478,
       "history": [
         {
           "date": "2026-04-05",
@@ -2720,8 +2720,51 @@
       "uptime90": 1
     }
   ],
-  "activeIncidents": [],
+  "activeIncidents": [
+    {
+      "source": "manual",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:12:00.000Z",
+          "status": "investigating",
+          "body": "We are investigating elevated errors and failed or slow requests affecting some users, related to database connectivity. Parts of the app may be intermittently unavailable. We will post updates as we learn more."
+        }
+      ],
+      "id": "2026-07-03-elevated-errors",
+      "title": "Elevated errors affecting parts of the platform",
+      "impact": "major",
+      "componentIds": [
+        "api",
+        "organization"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:05:00.000Z"
+    }
+  ],
   "recentIncidents": [
+    {
+      "source": "manual",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:12:00.000Z",
+          "status": "investigating",
+          "body": "We are investigating elevated errors and failed or slow requests affecting some users, related to database connectivity. Parts of the app may be intermittently unavailable. We will post updates as we learn more."
+        }
+      ],
+      "id": "2026-07-03-elevated-errors",
+      "title": "Elevated errors affecting parts of the platform",
+      "impact": "major",
+      "componentIds": [
+        "api",
+        "organization"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:05:00.000Z"
+    },
     {
       "id": "auto-prod-database-1782850399732",
       "source": "auto",
