@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-03T01:33:31.557Z",
-  "overall": "partial_outage",
+  "generatedAt": "2026-07-03T01:34:55.532Z",
+  "overall": "major_outage",
   "environment": {
     "id": "prod",
     "name": "Thrivea Cloud",
@@ -30,7 +30,7 @@
       "description": "Core gRPC/REST API that the Thrivea web app talks to.",
       "group": "cloud",
       "status": "down",
-      "latencyMs": 1157,
+      "latencyMs": 12001,
       "history": [
         {
           "date": "2026-04-05",
@@ -402,20 +402,20 @@
         },
         {
           "date": "2026-07-03",
-          "uptime": 0.42857142857142855,
-          "down": 4,
+          "uptime": 0.375,
+          "down": 5,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9130763416477702
+      "uptime90": 0.9054232804232804
     },
     {
       "id": "auth",
       "name": "Authentication & SSO",
       "description": "Sign-in, identity, single sign-on and workspace federation.",
       "group": "cloud",
-      "status": "operational",
-      "latencyMs": 923,
+      "status": "down",
+      "latencyMs": 15000,
       "history": [
         {
           "date": "2026-04-05",
@@ -787,20 +787,20 @@
         },
         {
           "date": "2026-07-03",
-          "uptime": 1,
-          "down": 0,
+          "uptime": 0.875,
+          "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9947089947089947
+      "uptime90": 0.9768518518518519
     },
     {
       "id": "networking",
       "name": "Social Feed",
       "description": "Company feed, posts, audience and messaging.",
       "group": "cloud",
-      "status": "operational",
-      "latencyMs": 923,
+      "status": "down",
+      "latencyMs": 15000,
       "history": [
         {
           "date": "2026-04-05",
@@ -1172,12 +1172,12 @@
         },
         {
           "date": "2026-07-03",
-          "uptime": 1,
-          "down": 0,
+          "uptime": 0.875,
+          "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9947089947089947
+      "uptime90": 0.9768518518518519
     },
     {
       "id": "organization",
@@ -1185,7 +1185,7 @@
       "description": "Employee records, jobs, compensation and workflows.",
       "group": "cloud",
       "status": "down",
-      "latencyMs": 923,
+      "latencyMs": 15000,
       "history": [
         {
           "date": "2026-04-05",
@@ -1557,20 +1557,20 @@
         },
         {
           "date": "2026-07-03",
-          "uptime": 0.42857142857142855,
-          "down": 4,
+          "uptime": 0.375,
+          "down": 5,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9130763416477702
+      "uptime90": 0.9054232804232804
     },
     {
       "id": "notifications",
       "name": "Notifications & Email",
       "description": "Email, push and in-app notifications.",
       "group": "cloud",
-      "status": "operational",
-      "latencyMs": 923,
+      "status": "down",
+      "latencyMs": 15000,
       "history": [
         {
           "date": "2026-04-05",
@@ -1942,20 +1942,20 @@
         },
         {
           "date": "2026-07-03",
-          "uptime": 1,
-          "down": 0,
+          "uptime": 0.875,
+          "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9947089947089947
+      "uptime90": 0.9768518518518519
     },
     {
       "id": "database",
       "name": "Database",
       "description": "Primary PostgreSQL data store.",
       "group": "cloud",
-      "status": "operational",
-      "latencyMs": 923,
+      "status": "down",
+      "latencyMs": 15000,
       "history": [
         {
           "date": "2026-04-05",
@@ -2327,20 +2327,20 @@
         },
         {
           "date": "2026-07-03",
-          "uptime": 1,
-          "down": 0,
+          "uptime": 0.875,
+          "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9947089947089947
+      "uptime90": 0.9768518518518519
     },
     {
       "id": "background",
       "name": "Background Jobs",
       "description": "Async processing: projections, schedulers, integrations.",
       "group": "cloud",
-      "status": "operational",
-      "latencyMs": 923,
+      "status": "down",
+      "latencyMs": 15000,
       "history": [
         {
           "date": "2026-04-05",
@@ -2712,15 +2712,155 @@
         },
         {
           "date": "2026-07-03",
-          "uptime": 1,
-          "down": 0,
+          "uptime": 0.875,
+          "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 1
+      "uptime90": 0.9821428571428571
     }
   ],
   "activeIncidents": [
+    {
+      "id": "auto-prod-background-1783042495532",
+      "source": "auto",
+      "title": "Background Jobs outage",
+      "impact": "major",
+      "componentIds": [
+        "background"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Background Jobs is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-database-1783042495532",
+      "source": "auto",
+      "title": "Database outage",
+      "impact": "major",
+      "componentIds": [
+        "database"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Database is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-notifications-1783042495532",
+      "source": "auto",
+      "title": "Notifications & Email outage",
+      "impact": "major",
+      "componentIds": [
+        "notifications"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Notifications & Email is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-organization-1783042495532",
+      "source": "auto",
+      "title": "HR & Organization outage",
+      "impact": "major",
+      "componentIds": [
+        "organization"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that HR & Organization is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-networking-1783042495532",
+      "source": "auto",
+      "title": "Social Feed outage",
+      "impact": "major",
+      "componentIds": [
+        "networking"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Social Feed is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-auth-1783042495532",
+      "source": "auto",
+      "title": "Authentication & SSO outage",
+      "impact": "major",
+      "componentIds": [
+        "auth"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Authentication & SSO is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-api-1783042495532",
+      "source": "auto",
+      "title": "Application API outage",
+      "impact": "major",
+      "componentIds": [
+        "api"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
     {
       "source": "manual",
       "resolvedAt": null,
@@ -2744,6 +2884,146 @@
     }
   ],
   "recentIncidents": [
+    {
+      "id": "auto-prod-background-1783042495532",
+      "source": "auto",
+      "title": "Background Jobs outage",
+      "impact": "major",
+      "componentIds": [
+        "background"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Background Jobs is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-database-1783042495532",
+      "source": "auto",
+      "title": "Database outage",
+      "impact": "major",
+      "componentIds": [
+        "database"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Database is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-notifications-1783042495532",
+      "source": "auto",
+      "title": "Notifications & Email outage",
+      "impact": "major",
+      "componentIds": [
+        "notifications"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Notifications & Email is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-organization-1783042495532",
+      "source": "auto",
+      "title": "HR & Organization outage",
+      "impact": "major",
+      "componentIds": [
+        "organization"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that HR & Organization is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-networking-1783042495532",
+      "source": "auto",
+      "title": "Social Feed outage",
+      "impact": "major",
+      "componentIds": [
+        "networking"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Social Feed is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-auth-1783042495532",
+      "source": "auto",
+      "title": "Authentication & SSO outage",
+      "impact": "major",
+      "componentIds": [
+        "auth"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Authentication & SSO is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-api-1783042495532",
+      "source": "auto",
+      "title": "Application API outage",
+      "impact": "major",
+      "componentIds": [
+        "api"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
     {
       "source": "manual",
       "resolvedAt": null,

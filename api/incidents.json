@@ -1,6 +1,146 @@
 {
   "incidents": [
     {
+      "id": "auto-prod-background-1783042495532",
+      "source": "auto",
+      "title": "Background Jobs outage",
+      "impact": "major",
+      "componentIds": [
+        "background"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Background Jobs is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-database-1783042495532",
+      "source": "auto",
+      "title": "Database outage",
+      "impact": "major",
+      "componentIds": [
+        "database"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Database is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-notifications-1783042495532",
+      "source": "auto",
+      "title": "Notifications & Email outage",
+      "impact": "major",
+      "componentIds": [
+        "notifications"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Notifications & Email is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-organization-1783042495532",
+      "source": "auto",
+      "title": "HR & Organization outage",
+      "impact": "major",
+      "componentIds": [
+        "organization"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that HR & Organization is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-networking-1783042495532",
+      "source": "auto",
+      "title": "Social Feed outage",
+      "impact": "major",
+      "componentIds": [
+        "networking"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Social Feed is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-auth-1783042495532",
+      "source": "auto",
+      "title": "Authentication & SSO outage",
+      "impact": "major",
+      "componentIds": [
+        "auth"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Authentication & SSO is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-api-1783042495532",
+      "source": "auto",
+      "title": "Application API outage",
+      "impact": "major",
+      "componentIds": [
+        "api"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-03T01:34:55.532Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-03T01:34:55.532Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
       "source": "manual",
       "resolvedAt": null,
       "eta": null,
