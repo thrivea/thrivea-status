@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T22:50:46.678Z",
+  "generatedAt": "2026-07-05T23:26:47.001Z",
   "overall": "operational",
   "environment": {
     "id": "dev",
@@ -30,7 +30,7 @@
       "description": "Core gRPC/REST API on the dev environment.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 483,
+      "latencyMs": 551,
       "history": [
         {
           "date": "2026-04-07",
@@ -402,12 +402,12 @@
         },
         {
           "date": "2026-07-05",
-          "uptime": 0.96875,
+          "uptime": 0.9696969696969697,
           "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9900412087912088
+      "uptime90": 0.9901764901764902
     },
     {
       "id": "auth",
@@ -415,7 +415,7 @@
       "description": "Sign-in, identity, single sign-on and workspace federation.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 482,
+      "latencyMs": 551,
       "history": [
         {
           "date": "2026-04-07",
@@ -787,12 +787,12 @@
         },
         {
           "date": "2026-07-05",
-          "uptime": 0.96875,
+          "uptime": 0.9696969696969697,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9900412087912088
+      "uptime90": 0.9901764901764902
     },
     {
       "id": "networking",
@@ -800,7 +800,7 @@
       "description": "Company feed, posts, audience and messaging.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 482,
+      "latencyMs": 551,
       "history": [
         {
           "date": "2026-04-07",
@@ -1172,12 +1172,12 @@
         },
         {
           "date": "2026-07-05",
-          "uptime": 0.96875,
+          "uptime": 0.9696969696969697,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9900412087912088
+      "uptime90": 0.9901764901764902
     },
     {
       "id": "organization",
@@ -1185,7 +1185,7 @@
       "description": "Employee records, jobs, compensation and workflows.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 482,
+      "latencyMs": 551,
       "history": [
         {
           "date": "2026-04-07",
@@ -1557,12 +1557,12 @@
         },
         {
           "date": "2026-07-05",
-          "uptime": 0.96875,
+          "uptime": 0.9696969696969697,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9900412087912088
+      "uptime90": 0.9901764901764902
     },
     {
       "id": "notifications",
@@ -1570,7 +1570,7 @@
       "description": "Email, push and in-app notifications.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 482,
+      "latencyMs": 551,
       "history": [
         {
           "date": "2026-04-07",
@@ -1942,12 +1942,12 @@
         },
         {
           "date": "2026-07-05",
-          "uptime": 0.96875,
+          "uptime": 0.9696969696969697,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9900412087912088
+      "uptime90": 0.9901764901764902
     },
     {
       "id": "database",
@@ -1955,7 +1955,7 @@
       "description": "Primary PostgreSQL data store.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 482,
+      "latencyMs": 551,
       "history": [
         {
           "date": "2026-04-07",
@@ -2327,12 +2327,12 @@
         },
         {
           "date": "2026-07-05",
-          "uptime": 0.96875,
+          "uptime": 0.9696969696969697,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9900412087912088
+      "uptime90": 0.9901764901764902
     },
     {
       "id": "background",
@@ -2340,7 +2340,7 @@
       "description": "Async processing: projections, schedulers, integrations.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 482,
+      "latencyMs": 551,
       "history": [
         {
           "date": "2026-04-07",
