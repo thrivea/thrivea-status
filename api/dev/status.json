@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T04:05:20.104Z",
+  "generatedAt": "2026-07-13T07:35:02.176Z",
   "overall": "operational",
   "environment": {
     "id": "dev",
@@ -30,7 +30,7 @@
       "description": "Core gRPC/REST API on the dev environment.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 689,
+      "latencyMs": 3698,
       "history": [
         {
           "date": "2026-04-15",
@@ -431,7 +431,7 @@
       "description": "Sign-in, identity, single sign-on and workspace federation.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 706,
+      "latencyMs": 3641,
       "history": [
         {
           "date": "2026-04-15",
@@ -832,7 +832,7 @@
       "description": "Company feed, posts, audience and messaging.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 706,
+      "latencyMs": 3641,
       "history": [
         {
           "date": "2026-04-15",
@@ -1233,7 +1233,7 @@
       "description": "Employee records, jobs, compensation and workflows.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 706,
+      "latencyMs": 3641,
       "history": [
         {
           "date": "2026-04-15",
@@ -1634,7 +1634,7 @@
       "description": "Email, push and in-app notifications.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 706,
+      "latencyMs": 3641,
       "history": [
         {
           "date": "2026-04-15",
@@ -2035,7 +2035,7 @@
       "description": "Primary PostgreSQL data store.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 706,
+      "latencyMs": 3641,
       "history": [
         {
           "date": "2026-04-15",
@@ -2436,7 +2436,7 @@
       "description": "Async processing: projections, schedulers, integrations.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 706,
+      "latencyMs": 3641,
       "history": [
         {
           "date": "2026-04-15",
