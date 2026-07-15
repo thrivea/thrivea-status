@@ -83,6 +83,12 @@
       "total": 15,
       "down": 0,
       "degraded": 0
+    },
+    "2026-07-15": {
+      "up": 1,
+      "total": 1,
+      "down": 0,
+      "degraded": 0
     }
   },
   "auth": {
@@ -167,6 +173,12 @@
     "2026-07-14": {
       "up": 15,
       "total": 15,
+      "down": 0,
+      "degraded": 0
+    },
+    "2026-07-15": {
+      "up": 1,
+      "total": 1,
       "down": 0,
       "degraded": 0
     }
@@ -255,6 +267,12 @@
       "total": 15,
       "down": 0,
       "degraded": 0
+    },
+    "2026-07-15": {
+      "up": 1,
+      "total": 1,
+      "down": 0,
+      "degraded": 0
     }
   },
   "organization": {
@@ -339,6 +357,12 @@
     "2026-07-14": {
       "up": 15,
       "total": 15,
+      "down": 0,
+      "degraded": 0
+    },
+    "2026-07-15": {
+      "up": 1,
+      "total": 1,
       "down": 0,
       "degraded": 0
     }
@@ -427,6 +451,12 @@
       "total": 15,
       "down": 0,
       "degraded": 0
+    },
+    "2026-07-15": {
+      "up": 1,
+      "total": 1,
+      "down": 0,
+      "degraded": 0
     }
   },
   "database": {
@@ -513,6 +543,12 @@
       "total": 15,
       "down": 0,
       "degraded": 0
+    },
+    "2026-07-15": {
+      "up": 1,
+      "total": 1,
+      "down": 0,
+      "degraded": 0
     }
   },
   "background": {
@@ -597,6 +633,12 @@
     "2026-07-14": {
       "up": 15,
       "total": 15,
+      "down": 0,
+      "degraded": 0
+    },
+    "2026-07-15": {
+      "up": 1,
+      "total": 1,
       "down": 0,
       "degraded": 0
     }
