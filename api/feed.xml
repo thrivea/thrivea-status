@@ -4,20 +4,13 @@
   <link href="https://status.thrivea.com/feed.xml" rel="self"/>
   <link href="https://status.thrivea.com"/>
   <id>https://status.thrivea.com/</id>
-  <updated>2026-07-18T10:41:32.273Z</updated>
+  <updated>2026-07-18T11:39:12.768Z</updated>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:auto-prod-aggregate-1783236761602</id>
     <title>Major service outage (resolved)</title>
     <updated>2026-07-05T08:35:48.876Z</updated>
     <link href="https://status.thrivea.com/#auto-prod-aggregate-1783236761602"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;resolved&lt;/strong&gt; — The platform-wide outage has cleared. Any remaining component issues are tracked individually.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that multiple services are affected (Application API, Authentication &amp;amp; SSO, Social Feed, HR &amp;amp; Organization, Notifications &amp;amp; Email, Database, Background Jobs). Our team has been alerted.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:status.thrivea.com,2026:prod:auto-prod-api-1783069821118</id>
-    <title>Application API degraded performance (resolved)</title>
-    <updated>2026-07-03T11:15:00.600Z</updated>
-    <link href="https://status.thrivea.com/#auto-prod-api-1783069821118"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;resolved&lt;/strong&gt; — Application API has recovered and is fully operational again. Automated monitoring confirms healthy responses.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Application API is responding slowly or partially. Our team has been alerted.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:2026-07-03-elevated-errors</id>

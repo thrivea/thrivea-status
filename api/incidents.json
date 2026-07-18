@@ -33,31 +33,6 @@
       ]
     },
     {
-      "id": "auto-prod-api-1783069821118",
-      "source": "auto",
-      "title": "Application API degraded performance",
-      "impact": "minor",
-      "componentIds": [
-        "api"
-      ],
-      "status": "resolved",
-      "startedAt": "2026-07-03T09:10:21.118Z",
-      "resolvedAt": "2026-07-03T11:15:00.600Z",
-      "eta": null,
-      "updates": [
-        {
-          "at": "2026-07-03T11:15:00.600Z",
-          "status": "resolved",
-          "body": "Application API has recovered and is fully operational again. Automated monitoring confirms healthy responses."
-        },
-        {
-          "at": "2026-07-03T09:10:21.118Z",
-          "status": "investigating",
-          "body": "Automated monitoring detected that Application API is responding slowly or partially. Our team has been alerted."
-        }
-      ]
-    },
-    {
       "source": "manual",
       "resolvedAt": "2026-07-03T07:21:00.000Z",
       "eta": null,
