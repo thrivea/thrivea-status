@@ -1,6 +1,32 @@
 {
   "incidents": [
     {
+      "id": "auto-prod-aggregate-1784968324222",
+      "source": "auto",
+      "aggregate": true,
+      "title": "Multiple services degraded",
+      "impact": "minor",
+      "componentIds": [
+        "api",
+        "auth",
+        "networking",
+        "organization",
+        "notifications",
+        "database"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-07-25T08:32:04.222Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-07-25T08:32:04.222Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that multiple services are affected (Application API, Authentication & SSO, Social Feed, HR & Organization, Notifications & Email, Database). Our team has been alerted."
+        }
+      ]
+    },
+    {
       "source": "manual",
       "resolvedAt": "2026-07-03T07:21:00.000Z",
       "eta": null,
