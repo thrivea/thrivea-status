@@ -4,6 +4,12 @@
   <link href="https://status.thrivea.com/dev/feed.xml" rel="self"/>
   <link href="https://status.thrivea.com/dev"/>
   <id>https://status.thrivea.com/dev/</id>
-  <updated>2026-07-25T05:09:05.107Z</updated>
-
+  <updated>2026-07-25T06:04:04.615Z</updated>
+  <entry>
+    <id>tag:status.thrivea.com,2026:dev:auto-dev-api-1784959444615</id>
+    <title>Application API outage</title>
+    <updated>2026-07-25T06:04:04.615Z</updated>
+    <link href="https://status.thrivea.com/dev/#auto-dev-api-1784959444615"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted.&lt;/p&gt;</content>
+  </entry>
 </feed>
