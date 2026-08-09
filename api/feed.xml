@@ -4,14 +4,7 @@
   <link href="https://status.thrivea.com/feed.xml" rel="self"/>
   <link href="https://status.thrivea.com"/>
   <id>https://status.thrivea.com/</id>
-  <updated>2026-08-09T09:08:43.346Z</updated>
-  <entry>
-    <id>tag:status.thrivea.com,2026:prod:auto-prod-aggregate-1784968324222</id>
-    <title>Multiple services degraded (resolved)</title>
-    <updated>2026-07-25T09:18:12.997Z</updated>
-    <link href="https://status.thrivea.com/#auto-prod-aggregate-1784968324222"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;resolved&lt;/strong&gt; — The platform-wide outage has cleared. Any remaining component issues are tracked individually.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that multiple services are affected (Application API, Authentication &amp;amp; SSO, Social Feed, HR &amp;amp; Organization, Notifications &amp;amp; Email, Database). Our team has been alerted.&lt;/p&gt;</content>
-  </entry>
+  <updated>2026-08-09T09:26:00.906Z</updated>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:2026-07-03-elevated-errors</id>
     <title>Service disruption — platform unavailable (resolved)</title>
