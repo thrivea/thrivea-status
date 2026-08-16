@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T16:10:50.184Z",
+  "generatedAt": "2026-08-16T16:31:59.086Z",
   "overall": "operational",
   "environment": {
     "id": "prod",
@@ -30,7 +30,7 @@
       "description": "Core gRPC/REST API that the Thrivea web app talks to.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 671,
+      "latencyMs": 1326,
       "history": [
         {
           "date": "2026-05-19",
@@ -490,12 +490,12 @@
         },
         {
           "date": "2026-08-16",
-          "uptime": 0.9807692307692307,
+          "uptime": 0.9811320754716981,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9912680648278294
+      "uptime90": 0.9912751794298384
     },
     {
       "id": "auth",
@@ -503,7 +503,7 @@
       "description": "Sign-in, identity, single sign-on and workspace federation.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 607,
+      "latencyMs": 755,
       "history": [
         {
           "date": "2026-05-19",
@@ -963,12 +963,12 @@
         },
         {
           "date": "2026-08-16",
-          "uptime": 0.9807692307692307,
+          "uptime": 0.9811320754716981,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9942846560797147
+      "uptime90": 0.9942917706817238
     },
     {
       "id": "networking",
@@ -976,7 +976,7 @@
       "description": "Company feed, posts, audience and messaging.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 607,
+      "latencyMs": 755,
       "history": [
         {
           "date": "2026-05-19",
@@ -1436,12 +1436,12 @@
         },
         {
           "date": "2026-08-16",
-          "uptime": 0.9807692307692307,
+          "uptime": 0.9811320754716981,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9942846560797147
+      "uptime90": 0.9942917706817238
     },
     {
       "id": "organization",
@@ -1449,7 +1449,7 @@
       "description": "Employee records, jobs, compensation and workflows.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 607,
+      "latencyMs": 755,
       "history": [
         {
           "date": "2026-05-19",
@@ -1909,12 +1909,12 @@
         },
         {
           "date": "2026-08-16",
-          "uptime": 0.9807692307692307,
+          "uptime": 0.9811320754716981,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9922735952451245
+      "uptime90": 0.9922807098471336
     },
     {
       "id": "notifications",
@@ -1922,7 +1922,7 @@
       "description": "Email, push and in-app notifications.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 607,
+      "latencyMs": 755,
       "history": [
         {
           "date": "2026-05-19",
@@ -2382,12 +2382,12 @@
         },
         {
           "date": "2026-08-16",
-          "uptime": 0.9807692307692307,
+          "uptime": 0.9811320754716981,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9942846560797147
+      "uptime90": 0.9942917706817238
     },
     {
       "id": "database",
@@ -2395,7 +2395,7 @@
       "description": "Primary PostgreSQL data store.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 607,
+      "latencyMs": 755,
       "history": [
         {
           "date": "2026-05-19",
@@ -2855,12 +2855,12 @@
         },
         {
           "date": "2026-08-16",
-          "uptime": 0.9807692307692307,
+          "uptime": 0.9811320754716981,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9942846560797147
+      "uptime90": 0.9942917706817238
     },
     {
       "id": "background",
@@ -2868,7 +2868,7 @@
       "description": "Async processing: projections, schedulers, integrations.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 607,
+      "latencyMs": 755,
       "history": [
         {
           "date": "2026-05-19",
