@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T11:11:45.594Z",
+  "generatedAt": "2026-08-16T11:29:44.736Z",
   "overall": "operational",
   "environment": {
     "id": "prod",
@@ -30,7 +30,7 @@
       "description": "Core gRPC/REST API that the Thrivea web app talks to.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 777,
+      "latencyMs": 774,
       "history": [
         {
           "date": "2026-05-19",
@@ -490,12 +490,12 @@
         },
         {
           "date": "2026-08-16",
-          "uptime": 0.9696969696969697,
+          "uptime": 0.9705882352941176,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9910509616695496
+      "uptime90": 0.9910684374655722
     },
     {
       "id": "auth",
@@ -963,12 +963,12 @@
         },
         {
           "date": "2026-08-16",
-          "uptime": 0.9696969696969697,
+          "uptime": 0.9705882352941176,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.994067552921435
+      "uptime90": 0.9940850287174575
     },
     {
       "id": "networking",
@@ -1436,12 +1436,12 @@
         },
         {
           "date": "2026-08-16",
-          "uptime": 0.9696969696969697,
+          "uptime": 0.9705882352941176,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.994067552921435
+      "uptime90": 0.9940850287174575
     },
     {
       "id": "organization",
@@ -1909,12 +1909,12 @@
         },
         {
           "date": "2026-08-16",
-          "uptime": 0.9696969696969697,
+          "uptime": 0.9705882352941176,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9920564920868448
+      "uptime90": 0.9920739678828673
     },
     {
       "id": "notifications",
@@ -2382,12 +2382,12 @@
         },
         {
           "date": "2026-08-16",
-          "uptime": 0.9696969696969697,
+          "uptime": 0.9705882352941176,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.994067552921435
+      "uptime90": 0.9940850287174575
     },
     {
       "id": "database",
@@ -2855,12 +2855,12 @@
         },
         {
           "date": "2026-08-16",
-          "uptime": 0.9696969696969697,
+          "uptime": 0.9705882352941176,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.994067552921435
+      "uptime90": 0.9940850287174575
     },
     {
       "id": "background",
