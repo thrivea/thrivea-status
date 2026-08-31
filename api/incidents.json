@@ -1,37 +1,6 @@
 {
   "incidents": [
     {
-      "id": "auto-prod-aggregate-1786876465831",
-      "source": "auto",
-      "aggregate": true,
-      "title": "Multiple services degraded",
-      "impact": "minor",
-      "componentIds": [
-        "api",
-        "auth",
-        "networking",
-        "organization",
-        "notifications",
-        "database"
-      ],
-      "status": "resolved",
-      "startedAt": "2026-08-16T10:34:25.831Z",
-      "resolvedAt": "2026-08-16T10:48:16.467Z",
-      "eta": null,
-      "updates": [
-        {
-          "at": "2026-08-16T10:48:16.467Z",
-          "status": "resolved",
-          "body": "The platform-wide outage has cleared. Any remaining component issues are tracked individually."
-        },
-        {
-          "at": "2026-08-16T10:34:25.831Z",
-          "status": "investigating",
-          "body": "Automated monitoring detected that multiple services are affected (Application API, Authentication & SSO, Social Feed, HR & Organization, Notifications & Email, Database). Our team has been alerted."
-        }
-      ]
-    },
-    {
       "source": "manual",
       "resolvedAt": "2026-07-03T07:21:00.000Z",
       "eta": null,
