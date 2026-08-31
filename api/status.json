@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T08:58:18.761Z",
+  "generatedAt": "2026-08-31T09:28:14.237Z",
   "overall": "operational",
   "environment": {
     "id": "prod",
@@ -30,7 +30,7 @@
       "description": "Core gRPC/REST API that the Thrivea web app talks to.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 1414,
+      "latencyMs": 749,
       "history": [
         {
           "date": "2026-06-03",
@@ -533,7 +533,7 @@
       "description": "Sign-in, identity, single sign-on and workspace federation.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 1338,
+      "latencyMs": 690,
       "history": [
         {
           "date": "2026-06-03",
@@ -1036,7 +1036,7 @@
       "description": "Company feed, posts, audience and messaging.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 1338,
+      "latencyMs": 690,
       "history": [
         {
           "date": "2026-06-03",
@@ -1539,7 +1539,7 @@
       "description": "Employee records, jobs, compensation and workflows.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 1338,
+      "latencyMs": 690,
       "history": [
         {
           "date": "2026-06-03",
@@ -2042,7 +2042,7 @@
       "description": "Email, push and in-app notifications.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 1338,
+      "latencyMs": 690,
       "history": [
         {
           "date": "2026-06-03",
@@ -2545,7 +2545,7 @@
       "description": "Primary PostgreSQL data store.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 1338,
+      "latencyMs": 690,
       "history": [
         {
           "date": "2026-06-03",
@@ -3048,7 +3048,7 @@
       "description": "Async processing: projections, schedulers, integrations.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 1338,
+      "latencyMs": 690,
       "history": [
         {
           "date": "2026-06-03",
