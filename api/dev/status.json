@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T23:24:47.429Z",
+  "generatedAt": "2026-09-03T23:37:22.964Z",
   "overall": "operational",
   "environment": {
     "id": "dev",
@@ -30,7 +30,7 @@
       "description": "Core gRPC/REST API on the dev environment.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 692,
+      "latencyMs": 700,
       "history": [
         {
           "date": "2026-06-06",
@@ -522,12 +522,12 @@
         },
         {
           "date": "2026-09-03",
-          "uptime": 0.987012987012987,
+          "uptime": 0.9871794871794872,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9816321259600221
+      "uptime90": 0.981634611037134
     },
     {
       "id": "auth",
@@ -535,7 +535,7 @@
       "description": "Sign-in, identity, single sign-on and workspace federation.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 702,
+      "latencyMs": 712,
       "history": [
         {
           "date": "2026-06-06",
@@ -1027,12 +1027,12 @@
         },
         {
           "date": "2026-09-03",
-          "uptime": 0.987012987012987,
+          "uptime": 0.9871794871794872,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9976624195237014
+      "uptime90": 0.9976649046008134
     },
     {
       "id": "networking",
@@ -1040,7 +1040,7 @@
       "description": "Company feed, posts, audience and messaging.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 702,
+      "latencyMs": 712,
       "history": [
         {
           "date": "2026-06-06",
@@ -1532,12 +1532,12 @@
         },
         {
           "date": "2026-09-03",
-          "uptime": 0.987012987012987,
+          "uptime": 0.9871794871794872,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9976624195237014
+      "uptime90": 0.9976649046008134
     },
     {
       "id": "organization",
@@ -1545,7 +1545,7 @@
       "description": "Employee records, jobs, compensation and workflows.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 702,
+      "latencyMs": 712,
       "history": [
         {
           "date": "2026-06-06",
@@ -2037,12 +2037,12 @@
         },
         {
           "date": "2026-09-03",
-          "uptime": 0.987012987012987,
+          "uptime": 0.9871794871794872,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9976624195237014
+      "uptime90": 0.9976649046008134
     },
     {
       "id": "notifications",
@@ -2050,7 +2050,7 @@
       "description": "Email, push and in-app notifications.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 702,
+      "latencyMs": 712,
       "history": [
         {
           "date": "2026-06-06",
@@ -2542,12 +2542,12 @@
         },
         {
           "date": "2026-09-03",
-          "uptime": 0.987012987012987,
+          "uptime": 0.9871794871794872,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9974491999074968
+      "uptime90": 0.9974516849846088
     },
     {
       "id": "database",
@@ -2555,7 +2555,7 @@
       "description": "Primary PostgreSQL data store.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 702,
+      "latencyMs": 712,
       "history": [
         {
           "date": "2026-06-06",
@@ -3047,12 +3047,12 @@
         },
         {
           "date": "2026-09-03",
-          "uptime": 0.987012987012987,
+          "uptime": 0.9871794871794872,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9976624195237014
+      "uptime90": 0.9976649046008134
     },
     {
       "id": "background",
@@ -3060,7 +3060,7 @@
       "description": "Async processing: projections, schedulers, integrations.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 702,
+      "latencyMs": 712,
       "history": [
         {
           "date": "2026-06-06",
