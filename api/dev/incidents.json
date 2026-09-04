@@ -93,56 +93,6 @@
           "body": "Automated monitoring detected that multiple services are affected (Application API, Authentication & SSO, Social Feed, HR & Organization, Notifications & Email, Database, Background Jobs). Our team has been alerted."
         }
       ]
-    },
-    {
-      "id": "auto-dev-notifications-1787214176848",
-      "source": "auto",
-      "title": "Notifications & Email outage",
-      "impact": "major",
-      "componentIds": [
-        "notifications"
-      ],
-      "status": "resolved",
-      "startedAt": "2026-08-20T08:22:56.848Z",
-      "resolvedAt": "2026-08-20T08:47:03.867Z",
-      "eta": null,
-      "updates": [
-        {
-          "at": "2026-08-20T08:47:03.867Z",
-          "status": "resolved",
-          "body": "Notifications & Email has recovered and is fully operational again. Automated monitoring confirms healthy responses."
-        },
-        {
-          "at": "2026-08-20T08:22:56.848Z",
-          "status": "investigating",
-          "body": "Automated monitoring detected that Notifications & Email is unreachable / failing health checks. Our team has been alerted."
-        }
-      ]
-    },
-    {
-      "id": "auto-dev-api-1787214176848",
-      "source": "auto",
-      "title": "Application API outage",
-      "impact": "major",
-      "componentIds": [
-        "api"
-      ],
-      "status": "resolved",
-      "startedAt": "2026-08-20T08:22:56.848Z",
-      "resolvedAt": "2026-08-20T08:47:03.867Z",
-      "eta": null,
-      "updates": [
-        {
-          "at": "2026-08-20T08:47:03.867Z",
-          "status": "resolved",
-          "body": "Application API has recovered and is fully operational again. Automated monitoring confirms healthy responses."
-        },
-        {
-          "at": "2026-08-20T08:22:56.848Z",
-          "status": "investigating",
-          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
-        }
-      ]
     }
   ]
 }
