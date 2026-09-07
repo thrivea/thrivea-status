@@ -8,11 +8,16 @@
       "componentIds": [
         "api"
       ],
-      "status": "investigating",
+      "status": "resolved",
       "startedAt": "2026-09-07T10:16:41.238Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-09-07T10:30:40.653Z",
       "eta": null,
       "updates": [
+        {
+          "at": "2026-09-07T10:30:40.653Z",
+          "status": "resolved",
+          "body": "Application API has recovered and is fully operational again. Automated monitoring confirms healthy responses."
+        },
         {
           "at": "2026-09-07T10:16:41.238Z",
           "status": "investigating",
