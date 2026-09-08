@@ -4,7 +4,14 @@
   <link href="https://status.thrivea.com/dev/feed.xml" rel="self"/>
   <link href="https://status.thrivea.com/dev"/>
   <id>https://status.thrivea.com/dev/</id>
-  <updated>2026-09-08T12:29:14.890Z</updated>
+  <updated>2026-09-08T12:48:33.383Z</updated>
+  <entry>
+    <id>tag:status.thrivea.com,2026:dev:auto-dev-api-1788871713383</id>
+    <title>Application API degraded performance</title>
+    <updated>2026-09-08T12:48:33.383Z</updated>
+    <link href="https://status.thrivea.com/dev/#auto-dev-api-1788871713383"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Application API is responding slowly or partially. Our team has been alerted.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:status.thrivea.com,2026:dev:auto-dev-api-1788868563303</id>
     <title>Application API outage (resolved)</title>
