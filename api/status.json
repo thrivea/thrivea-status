@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T21:14:54.851Z",
+  "generatedAt": "2026-09-10T21:25:15.304Z",
   "overall": "operational",
   "environment": {
     "id": "prod",
@@ -30,7 +30,7 @@
       "description": "Core gRPC/REST API that the Thrivea web app talks to.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 710,
+      "latencyMs": 605,
       "history": [
         {
           "date": "2026-06-13",
@@ -540,12 +540,12 @@
         },
         {
           "date": "2026-09-10",
-          "uptime": 0.9873417721518988,
+          "uptime": 0.9875,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9940720939699947
+      "uptime90": 0.9940741759153645
     },
     {
       "id": "auth",
@@ -553,7 +553,7 @@
       "description": "Sign-in, identity, single sign-on and workspace federation.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 577,
+      "latencyMs": 619,
       "history": [
         {
           "date": "2026-06-13",
@@ -1063,12 +1063,12 @@
         },
         {
           "date": "2026-09-10",
-          "uptime": 0.9873417721518988,
+          "uptime": 0.9875,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9960963854679705
+      "uptime90": 0.9960984674133403
     },
     {
       "id": "networking",
@@ -1076,7 +1076,7 @@
       "description": "Company feed, posts, audience and messaging.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 577,
+      "latencyMs": 619,
       "history": [
         {
           "date": "2026-06-13",
@@ -1586,12 +1586,12 @@
         },
         {
           "date": "2026-09-10",
-          "uptime": 0.9873417721518988,
+          "uptime": 0.9875,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9960963854679705
+      "uptime90": 0.9960984674133403
     },
     {
       "id": "organization",
@@ -1599,7 +1599,7 @@
       "description": "Employee records, jobs, compensation and workflows.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 577,
+      "latencyMs": 619,
       "history": [
         {
           "date": "2026-06-13",
@@ -2109,12 +2109,12 @@
         },
         {
           "date": "2026-09-10",
-          "uptime": 0.9873417721518988,
+          "uptime": 0.9875,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9947468578026534
+      "uptime90": 0.9947489397480233
     },
     {
       "id": "notifications",
@@ -2122,7 +2122,7 @@
       "description": "Email, push and in-app notifications.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 577,
+      "latencyMs": 619,
       "history": [
         {
           "date": "2026-06-13",
@@ -2632,12 +2632,12 @@
         },
         {
           "date": "2026-09-10",
-          "uptime": 0.9873417721518988,
+          "uptime": 0.9875,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9960963854679705
+      "uptime90": 0.9960984674133403
     },
     {
       "id": "database",
@@ -2645,7 +2645,7 @@
       "description": "Primary PostgreSQL data store.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 577,
+      "latencyMs": 619,
       "history": [
         {
           "date": "2026-06-13",
@@ -3155,12 +3155,12 @@
         },
         {
           "date": "2026-09-10",
-          "uptime": 0.9873417721518988,
+          "uptime": 0.9875,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9960963854679705
+      "uptime90": 0.9960984674133403
     },
     {
       "id": "background",
@@ -3168,7 +3168,7 @@
       "description": "Async processing: projections, schedulers, integrations.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 577,
+      "latencyMs": 619,
       "history": [
         {
           "date": "2026-06-13",
