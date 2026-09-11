@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-11T12:56:34.189Z",
-  "overall": "operational",
+  "generatedAt": "2026-09-11T13:19:08.243Z",
+  "overall": "partial_outage",
   "environment": {
     "id": "dev",
     "name": "Thrivea — Development",
@@ -29,8 +29,8 @@
       "name": "Application API",
       "description": "Core gRPC/REST API on the dev environment.",
       "group": "cloud",
-      "status": "operational",
-      "latencyMs": 714,
+      "status": "down",
+      "latencyMs": 729,
       "history": [
         {
           "date": "2026-06-14",
@@ -538,12 +538,12 @@
         },
         {
           "date": "2026-09-11",
-          "uptime": 1,
-          "down": 0,
+          "uptime": 0.9772727272727273,
+          "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9828683364851033
+      "uptime90": 0.982565306182073
     },
     {
       "id": "auth",
@@ -551,7 +551,7 @@
       "description": "Sign-in, identity, single sign-on and workspace federation.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 701,
+      "latencyMs": 718,
       "history": [
         {
           "date": "2026-06-14",
@@ -1072,7 +1072,7 @@
       "description": "Company feed, posts, audience and messaging.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 701,
+      "latencyMs": 718,
       "history": [
         {
           "date": "2026-06-14",
@@ -1593,7 +1593,7 @@
       "description": "Employee records, jobs, compensation and workflows.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 701,
+      "latencyMs": 718,
       "history": [
         {
           "date": "2026-06-14",
@@ -2114,7 +2114,7 @@
       "description": "Email, push and in-app notifications.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 701,
+      "latencyMs": 718,
       "history": [
         {
           "date": "2026-06-14",
@@ -2635,7 +2635,7 @@
       "description": "Primary PostgreSQL data store.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 701,
+      "latencyMs": 718,
       "history": [
         {
           "date": "2026-06-14",
@@ -3156,7 +3156,7 @@
       "description": "Async processing: projections, schedulers, integrations.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 701,
+      "latencyMs": 718,
       "history": [
         {
           "date": "2026-06-14",
@@ -3672,8 +3672,49 @@
       "uptime90": 0.9990469916556873
     }
   ],
-  "activeIncidents": [],
+  "activeIncidents": [
+    {
+      "id": "auto-dev-api-1789132748243",
+      "source": "auto",
+      "title": "Application API outage",
+      "impact": "major",
+      "componentIds": [
+        "api"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-09-11T13:19:08.243Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-09-11T13:19:08.243Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    }
+  ],
   "recentIncidents": [
+    {
+      "id": "auto-dev-api-1789132748243",
+      "source": "auto",
+      "title": "Application API outage",
+      "impact": "major",
+      "componentIds": [
+        "api"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-09-11T13:19:08.243Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-09-11T13:19:08.243Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
     {
       "id": "auto-dev-api-1788871713383",
       "source": "auto",
