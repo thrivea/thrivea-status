@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T23:55:59.079Z",
+  "generatedAt": "2026-09-19T00:50:27.325Z",
   "overall": "operational",
   "environment": {
     "id": "prod",
@@ -30,12 +30,8 @@
       "description": "Core gRPC/REST API that the Thrivea web app talks to.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 728,
+      "latencyMs": 694,
       "history": [
-        {
-          "date": "2026-06-21",
-          "uptime": null
-        },
         {
           "date": "2026-06-22",
           "uptime": null
@@ -559,9 +555,15 @@
           "uptime": 1,
           "down": 0,
           "degraded": 0
+        },
+        {
+          "date": "2026-09-19",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
         }
       ],
-      "uptime90": 0.9946593414451864
+      "uptime90": 0.9947221727223019
     },
     {
       "id": "auth",
@@ -572,10 +574,6 @@
       "latencyMs": 651,
       "history": [
         {
-          "date": "2026-06-21",
-          "uptime": null
-        },
-        {
           "date": "2026-06-22",
           "uptime": null
         },
@@ -1098,9 +1096,15 @@
           "uptime": 1,
           "down": 0,
           "degraded": 0
+        },
+        {
+          "date": "2026-09-19",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
         }
       ],
-      "uptime90": 0.9964908432766884
+      "uptime90": 0.9965321274734332
     },
     {
       "id": "networking",
@@ -1111,10 +1115,6 @@
       "latencyMs": 651,
       "history": [
         {
-          "date": "2026-06-21",
-          "uptime": null
-        },
-        {
           "date": "2026-06-22",
           "uptime": null
         },
@@ -1637,9 +1637,15 @@
           "uptime": 1,
           "down": 0,
           "degraded": 0
+        },
+        {
+          "date": "2026-09-19",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
         }
       ],
-      "uptime90": 0.9964908432766884
+      "uptime90": 0.9965321274734332
     },
     {
       "id": "organization",
@@ -1649,10 +1655,6 @@
       "status": "operational",
       "latencyMs": 651,
       "history": [
-        {
-          "date": "2026-06-21",
-          "uptime": null
-        },
         {
           "date": "2026-06-22",
           "uptime": null
@@ -2176,9 +2178,15 @@
           "uptime": 1,
           "down": 0,
           "degraded": 0
+        },
+        {
+          "date": "2026-09-19",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
         }
       ],
-      "uptime90": 0.9952698420556871
+      "uptime90": 0.9953254909726791
     },
     {
       "id": "notifications",
@@ -2189,10 +2197,6 @@
       "latencyMs": 651,
       "history": [
         {
-          "date": "2026-06-21",
-          "uptime": null
-        },
-        {
           "date": "2026-06-22",
           "uptime": null
         },
@@ -2715,9 +2719,15 @@
           "uptime": 1,
           "down": 0,
           "degraded": 0
+        },
+        {
+          "date": "2026-09-19",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
         }
       ],
-      "uptime90": 0.9964908432766884
+      "uptime90": 0.9965321274734332
     },
     {
       "id": "database",
@@ -2728,10 +2738,6 @@
       "latencyMs": 651,
       "history": [
         {
-          "date": "2026-06-21",
-          "uptime": null
-        },
-        {
           "date": "2026-06-22",
           "uptime": null
         },
@@ -3254,9 +3260,15 @@
           "uptime": 1,
           "down": 0,
           "degraded": 0
+        },
+        {
+          "date": "2026-09-19",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
         }
       ],
-      "uptime90": 0.9964908432766884
+      "uptime90": 0.9965321274734332
     },
     {
       "id": "background",
@@ -3264,12 +3276,8 @@
       "description": "Async processing: projections, schedulers, integrations.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 620,
+      "latencyMs": 651,
       "history": [
-        {
-          "date": "2026-06-21",
-          "uptime": null
-        },
         {
           "date": "2026-06-22",
           "uptime": null
@@ -3793,9 +3801,15 @@
           "uptime": 1,
           "down": 0,
           "degraded": 0
+        },
+        {
+          "date": "2026-09-19",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
         }
       ],
-      "uptime90": 0.9975131078072254
+      "uptime90": 0.9975423653624345
     }
   ],
   "activeIncidents": [],
