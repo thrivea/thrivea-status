@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T14:14:24.959Z",
+  "generatedAt": "2026-09-19T14:26:54.101Z",
   "overall": "operational",
   "environment": {
     "id": "dev",
@@ -30,7 +30,7 @@
       "description": "Core gRPC/REST API on the dev environment.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 651,
+      "latencyMs": 886,
       "history": [
         {
           "date": "2026-06-22",
@@ -554,12 +554,12 @@
         },
         {
           "date": "2026-09-19",
-          "uptime": 0.9814814814814815,
+          "uptime": 0.9818181818181818,
           "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 0.983631342689775
+      "uptime90": 0.9836353993203377
     },
     {
       "id": "auth",
@@ -567,7 +567,7 @@
       "description": "Sign-in, identity, single sign-on and workspace federation.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 650,
+      "latencyMs": 883,
       "history": [
         {
           "date": "2026-06-22",
@@ -1091,12 +1091,12 @@
         },
         {
           "date": "2026-09-19",
-          "uptime": 0.9814814814814815,
+          "uptime": 0.9818181818181818,
           "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9976352813152656
+      "uptime90": 0.9976393379458283
     },
     {
       "id": "networking",
@@ -1104,7 +1104,7 @@
       "description": "Company feed, posts, audience and messaging.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 650,
+      "latencyMs": 883,
       "history": [
         {
           "date": "2026-06-22",
@@ -1628,12 +1628,12 @@
         },
         {
           "date": "2026-09-19",
-          "uptime": 0.9814814814814815,
+          "uptime": 0.9818181818181818,
           "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9976352813152656
+      "uptime90": 0.9976393379458283
     },
     {
       "id": "organization",
@@ -1641,7 +1641,7 @@
       "description": "Employee records, jobs, compensation and workflows.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 650,
+      "latencyMs": 883,
       "history": [
         {
           "date": "2026-06-22",
@@ -2165,12 +2165,12 @@
         },
         {
           "date": "2026-09-19",
-          "uptime": 0.9814814814814815,
+          "uptime": 0.9818181818181818,
           "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9976352813152656
+      "uptime90": 0.9976393379458283
     },
     {
       "id": "notifications",
@@ -2178,7 +2178,7 @@
       "description": "Email, push and in-app notifications.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 650,
+      "latencyMs": 883,
       "history": [
         {
           "date": "2026-06-22",
@@ -2702,12 +2702,12 @@
         },
         {
           "date": "2026-09-19",
-          "uptime": 0.9814814814814815,
+          "uptime": 0.9818181818181818,
           "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9974631642756788
+      "uptime90": 0.9974672209062415
     },
     {
       "id": "database",
@@ -2715,7 +2715,7 @@
       "description": "Primary PostgreSQL data store.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 650,
+      "latencyMs": 883,
       "history": [
         {
           "date": "2026-06-22",
@@ -3239,12 +3239,12 @@
         },
         {
           "date": "2026-09-19",
-          "uptime": 0.9814814814814815,
+          "uptime": 0.9818181818181818,
           "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9976352813152656
+      "uptime90": 0.9976393379458283
     },
     {
       "id": "background",
@@ -3252,7 +3252,7 @@
       "description": "Async processing: projections, schedulers, integrations.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 650,
+      "latencyMs": 883,
       "history": [
         {
           "date": "2026-06-22",
@@ -3776,12 +3776,12 @@
         },
         {
           "date": "2026-09-19",
-          "uptime": 0.9814814814814815,
+          "uptime": 0.9818181818181818,
           "down": 1,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9987861827407949
+      "uptime90": 0.9987902393713576
     }
   ],
   "activeIncidents": [],
