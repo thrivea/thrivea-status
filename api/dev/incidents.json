@@ -270,31 +270,6 @@
           "body": "Automated monitoring detected that multiple services are affected (Application API, Authentication & SSO, Social Feed, HR & Organization, Notifications & Email, Database, Background Jobs). Our team has been alerted."
         }
       ]
-    },
-    {
-      "id": "auto-dev-api-1788776201238",
-      "source": "auto",
-      "title": "Application API degraded performance",
-      "impact": "minor",
-      "componentIds": [
-        "api"
-      ],
-      "status": "resolved",
-      "startedAt": "2026-09-07T10:16:41.238Z",
-      "resolvedAt": "2026-09-07T10:30:40.653Z",
-      "eta": null,
-      "updates": [
-        {
-          "at": "2026-09-07T10:30:40.653Z",
-          "status": "resolved",
-          "body": "Application API has recovered and is fully operational again. Automated monitoring confirms healthy responses."
-        },
-        {
-          "at": "2026-09-07T10:16:41.238Z",
-          "status": "investigating",
-          "body": "Automated monitoring detected that Application API is responding slowly or partially. Our team has been alerted."
-        }
-      ]
     }
   ]
 }
