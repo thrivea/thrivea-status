@@ -1,6 +1,46 @@
 {
   "incidents": [
     {
+      "id": "auto-prod-auth-1790745742645",
+      "source": "auto",
+      "title": "Authentication & SSO outage",
+      "impact": "major",
+      "componentIds": [
+        "auth"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-09-30T05:22:22.645Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-09-30T05:22:22.645Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Authentication & SSO is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-prod-api-1790745742645",
+      "source": "auto",
+      "title": "Application API outage",
+      "impact": "major",
+      "componentIds": [
+        "api"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-09-30T05:22:22.645Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-09-30T05:22:22.645Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
       "id": "auto-prod-aggregate-1790706383768",
       "source": "auto",
       "aggregate": true,
