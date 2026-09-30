@@ -4,20 +4,20 @@
   <link href="https://status.thrivea.com/feed.xml" rel="self"/>
   <link href="https://status.thrivea.com"/>
   <id>https://status.thrivea.com/</id>
-  <updated>2026-09-30T05:42:25.652Z</updated>
+  <updated>2026-09-30T05:55:38.115Z</updated>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:auto-prod-auth-1790745742645</id>
-    <title>Authentication &amp; SSO outage</title>
-    <updated>2026-09-30T05:22:22.645Z</updated>
+    <title>Authentication &amp; SSO outage (resolved)</title>
+    <updated>2026-09-30T05:55:38.115Z</updated>
     <link href="https://status.thrivea.com/#auto-prod-auth-1790745742645"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Authentication &amp;amp; SSO is unreachable / failing health checks. Our team has been alerted.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;resolved&lt;/strong&gt; — Authentication &amp;amp; SSO has recovered and is fully operational again. Automated monitoring confirms healthy responses.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Authentication &amp;amp; SSO is unreachable / failing health checks. Our team has been alerted.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:auto-prod-api-1790745742645</id>
-    <title>Application API outage</title>
-    <updated>2026-09-30T05:22:22.645Z</updated>
+    <title>Application API outage (resolved)</title>
+    <updated>2026-09-30T05:55:38.115Z</updated>
     <link href="https://status.thrivea.com/#auto-prod-api-1790745742645"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;resolved&lt;/strong&gt; — Application API has recovered and is fully operational again. Automated monitoring confirms healthy responses.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:auto-prod-aggregate-1790706383768</id>
