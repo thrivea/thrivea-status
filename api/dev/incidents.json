@@ -1,22 +1,29 @@
 {
   "incidents": [
     {
-      "id": "auto-dev-api-1790970370841",
+      "id": "auto-dev-aggregate-1790970888408",
       "source": "auto",
-      "title": "Application API outage",
+      "aggregate": true,
+      "title": "Major service outage",
       "impact": "major",
       "componentIds": [
-        "api"
+        "api",
+        "auth",
+        "networking",
+        "organization",
+        "notifications",
+        "database",
+        "background"
       ],
       "status": "investigating",
-      "startedAt": "2026-10-02T19:46:10.841Z",
+      "startedAt": "2026-10-02T19:54:48.408Z",
       "resolvedAt": null,
       "eta": null,
       "updates": [
         {
-          "at": "2026-10-02T19:46:10.841Z",
+          "at": "2026-10-02T19:54:48.408Z",
           "status": "investigating",
-          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
+          "body": "Automated monitoring detected that multiple services are affected (Application API, Authentication & SSO, Social Feed, HR & Organization, Notifications & Email, Database, Background Jobs). Our team has been alerted."
         }
       ]
     },
