@@ -1,6 +1,66 @@
 {
   "incidents": [
     {
+      "id": "auto-dev-organization-1790972168705",
+      "source": "auto",
+      "title": "HR & Organization outage",
+      "impact": "major",
+      "componentIds": [
+        "organization"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-10-02T20:16:08.705Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-10-02T20:16:08.705Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that HR & Organization is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-dev-networking-1790972168705",
+      "source": "auto",
+      "title": "Social Feed outage",
+      "impact": "major",
+      "componentIds": [
+        "networking"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-10-02T20:16:08.705Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-10-02T20:16:08.705Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Social Feed is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-dev-api-1790972168705",
+      "source": "auto",
+      "title": "Application API outage",
+      "impact": "major",
+      "componentIds": [
+        "api"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-10-02T20:16:08.705Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-10-02T20:16:08.705Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
       "id": "auto-dev-aggregate-1790970888408",
       "source": "auto",
       "aggregate": true,
@@ -15,11 +75,16 @@
         "database",
         "background"
       ],
-      "status": "investigating",
+      "status": "resolved",
       "startedAt": "2026-10-02T19:54:48.408Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-10-02T20:16:08.705Z",
       "eta": null,
       "updates": [
+        {
+          "at": "2026-10-02T20:16:08.705Z",
+          "status": "resolved",
+          "body": "The platform-wide outage has cleared. Any remaining component issues are tracked individually."
+        },
         {
           "at": "2026-10-02T19:54:48.408Z",
           "status": "investigating",
