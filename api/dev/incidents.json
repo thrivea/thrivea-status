@@ -1,62 +1,29 @@
 {
   "incidents": [
     {
-      "id": "auto-dev-organization-1790972168705",
+      "id": "auto-dev-aggregate-1790973085051",
       "source": "auto",
-      "title": "HR & Organization outage",
+      "aggregate": true,
+      "title": "Major service outage",
       "impact": "major",
       "componentIds": [
-        "organization"
+        "api",
+        "auth",
+        "networking",
+        "organization",
+        "notifications",
+        "database",
+        "background"
       ],
       "status": "investigating",
-      "startedAt": "2026-10-02T20:16:08.705Z",
+      "startedAt": "2026-10-02T20:31:25.051Z",
       "resolvedAt": null,
       "eta": null,
       "updates": [
         {
-          "at": "2026-10-02T20:16:08.705Z",
+          "at": "2026-10-02T20:31:25.051Z",
           "status": "investigating",
-          "body": "Automated monitoring detected that HR & Organization is unreachable / failing health checks. Our team has been alerted."
-        }
-      ]
-    },
-    {
-      "id": "auto-dev-networking-1790972168705",
-      "source": "auto",
-      "title": "Social Feed outage",
-      "impact": "major",
-      "componentIds": [
-        "networking"
-      ],
-      "status": "investigating",
-      "startedAt": "2026-10-02T20:16:08.705Z",
-      "resolvedAt": null,
-      "eta": null,
-      "updates": [
-        {
-          "at": "2026-10-02T20:16:08.705Z",
-          "status": "investigating",
-          "body": "Automated monitoring detected that Social Feed is unreachable / failing health checks. Our team has been alerted."
-        }
-      ]
-    },
-    {
-      "id": "auto-dev-api-1790972168705",
-      "source": "auto",
-      "title": "Application API outage",
-      "impact": "major",
-      "componentIds": [
-        "api"
-      ],
-      "status": "investigating",
-      "startedAt": "2026-10-02T20:16:08.705Z",
-      "resolvedAt": null,
-      "eta": null,
-      "updates": [
-        {
-          "at": "2026-10-02T20:16:08.705Z",
-          "status": "investigating",
-          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
+          "body": "Automated monitoring detected that multiple services are affected (Application API, Authentication & SSO, Social Feed, HR & Organization, Notifications & Email, Database, Background Jobs). Our team has been alerted."
         }
       ]
     },
