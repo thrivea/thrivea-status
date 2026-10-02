@@ -1,6 +1,26 @@
 {
   "incidents": [
     {
+      "id": "auto-dev-api-1790970370841",
+      "source": "auto",
+      "title": "Application API outage",
+      "impact": "major",
+      "componentIds": [
+        "api"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-10-02T19:46:10.841Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-10-02T19:46:10.841Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
       "id": "auto-dev-aggregate-1790963166950",
       "source": "auto",
       "aggregate": true,
