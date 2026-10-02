@@ -4,7 +4,14 @@
   <link href="https://status.thrivea.com/dev/feed.xml" rel="self"/>
   <link href="https://status.thrivea.com/dev"/>
   <id>https://status.thrivea.com/dev/</id>
-  <updated>2026-10-02T17:30:36.396Z</updated>
+  <updated>2026-10-02T17:46:06.950Z</updated>
+  <entry>
+    <id>tag:status.thrivea.com,2026:dev:auto-dev-aggregate-1790963166950</id>
+    <title>Major service outage</title>
+    <updated>2026-10-02T17:46:06.950Z</updated>
+    <link href="https://status.thrivea.com/dev/#auto-dev-aggregate-1790963166950"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that multiple services are affected (Application API, Authentication &amp;amp; SSO, Social Feed, HR &amp;amp; Organization, Notifications &amp;amp; Email, Database, Background Jobs). Our team has been alerted.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:status.thrivea.com,2026:dev:auto-dev-api-1790954405182</id>
     <title>Application API degraded performance (resolved)</title>
