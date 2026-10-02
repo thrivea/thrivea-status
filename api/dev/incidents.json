@@ -4,7 +4,7 @@
       "id": "auto-dev-api-1790954405182",
       "source": "auto",
       "title": "Application API degraded performance",
-      "impact": "minor",
+      "impact": "major",
       "componentIds": [
         "api"
       ],
@@ -13,6 +13,11 @@
       "resolvedAt": null,
       "eta": null,
       "updates": [
+        {
+          "at": "2026-10-02T15:34:56.043Z",
+          "status": "investigating",
+          "body": "Impact updated: Application API is now down."
+        },
         {
           "at": "2026-10-02T15:20:05.182Z",
           "status": "investigating",
