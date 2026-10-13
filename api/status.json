@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T04:24:18.182Z",
+  "generatedAt": "2026-10-13T04:50:21.357Z",
   "overall": "operational",
   "environment": {
     "id": "prod",
@@ -30,7 +30,7 @@
       "description": "Core gRPC/REST API that the Thrivea web app talks to.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 768,
+      "latencyMs": 754,
       "history": [
         {
           "date": "2026-07-16",
