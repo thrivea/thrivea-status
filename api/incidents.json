@@ -1,6 +1,33 @@
 {
   "incidents": [
     {
+      "id": "auto-prod-aggregate-1792024739982",
+      "source": "auto",
+      "aggregate": true,
+      "title": "Major service outage",
+      "impact": "major",
+      "componentIds": [
+        "api",
+        "auth",
+        "networking",
+        "organization",
+        "notifications",
+        "database",
+        "background"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-10-15T00:38:59.982Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-10-15T00:38:59.982Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that multiple services are affected (Application API, Authentication & SSO, Social Feed, HR & Organization, Notifications & Email, Database, Background Jobs). Our team has been alerted."
+        }
+      ]
+    },
+    {
       "id": "auto-prod-aggregate-1791447999264",
       "source": "auto",
       "aggregate": true,
