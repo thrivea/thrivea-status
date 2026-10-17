@@ -15,11 +15,16 @@
         "database",
         "background"
       ],
-      "status": "investigating",
+      "status": "resolved",
       "startedAt": "2026-10-17T14:38:53.818Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-10-17T15:47:05.597Z",
       "eta": null,
       "updates": [
+        {
+          "at": "2026-10-17T15:47:05.597Z",
+          "status": "resolved",
+          "body": "The platform-wide outage has cleared. Any remaining component issues are tracked individually."
+        },
         {
           "at": "2026-10-17T14:38:53.818Z",
           "status": "investigating",
