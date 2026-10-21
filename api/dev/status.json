@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T21:17:06.208Z",
+  "generatedAt": "2026-10-21T21:31:43.445Z",
   "overall": "partial_outage",
   "environment": {
     "id": "dev",
@@ -30,7 +30,7 @@
       "description": "Core gRPC/REST API on the dev environment.",
       "group": "cloud",
       "status": "down",
-      "latencyMs": 845,
+      "latencyMs": 803,
       "history": [
         {
           "date": "2026-07-24",
@@ -568,12 +568,12 @@
         },
         {
           "date": "2026-10-21",
-          "uptime": 0.9545454545454546,
-          "down": 3,
+          "uptime": 0.9402985074626866,
+          "down": 4,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9815438413512412
+      "uptime90": 0.9813855419392105
     },
     {
       "id": "auth",
@@ -3336,7 +3336,7 @@
       "description": "Async processing: projections, schedulers, integrations.",
       "group": "cloud",
       "status": "down",
-      "latencyMs": 849,
+      "latencyMs": 795,
       "history": [
         {
           "date": "2026-07-24",
@@ -3874,12 +3874,12 @@
         },
         {
           "date": "2026-10-21",
-          "uptime": 0.9696969696969697,
-          "down": 2,
+          "uptime": 0.9552238805970149,
+          "down": 3,
           "degraded": 0
         }
       ],
-      "uptime90": 0.9973685531626433
+      "uptime90": 0.9972077410615328
     }
   ],
   "activeIncidents": [
