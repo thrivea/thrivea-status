@@ -1,6 +1,46 @@
 {
   "incidents": [
     {
+      "id": "auto-dev-background-1792616188241",
+      "source": "auto",
+      "title": "Background Jobs outage",
+      "impact": "major",
+      "componentIds": [
+        "background"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-10-21T20:56:28.241Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-10-21T20:56:28.241Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Background Jobs is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
+      "id": "auto-dev-api-1792616188241",
+      "source": "auto",
+      "title": "Application API outage",
+      "impact": "major",
+      "componentIds": [
+        "api"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-10-21T20:56:28.241Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-10-21T20:56:28.241Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
+        }
+      ]
+    },
+    {
       "id": "auto-dev-api-1792576552864",
       "source": "auto",
       "title": "Application API outage",
