@@ -8,11 +8,16 @@
       "componentIds": [
         "background"
       ],
-      "status": "investigating",
+      "status": "resolved",
       "startedAt": "2026-10-21T20:56:28.241Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-10-22T04:55:59.495Z",
       "eta": null,
       "updates": [
+        {
+          "at": "2026-10-22T04:55:59.495Z",
+          "status": "resolved",
+          "body": "Background Jobs has recovered and is fully operational again. Automated monitoring confirms healthy responses."
+        },
         {
           "at": "2026-10-21T20:56:28.241Z",
           "status": "investigating",
@@ -28,11 +33,16 @@
       "componentIds": [
         "api"
       ],
-      "status": "investigating",
+      "status": "resolved",
       "startedAt": "2026-10-21T20:56:28.241Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-10-22T04:55:59.495Z",
       "eta": null,
       "updates": [
+        {
+          "at": "2026-10-22T04:55:59.495Z",
+          "status": "resolved",
+          "body": "Application API has recovered and is fully operational again. Automated monitoring confirms healthy responses."
+        },
         {
           "at": "2026-10-21T20:56:28.241Z",
           "status": "investigating",
