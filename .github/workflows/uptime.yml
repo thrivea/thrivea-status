@@ -33,7 +33,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: ${{ vars.NODE_VERSION }}
 
       - name: Run health probes
         env:
