@@ -1,6 +1,26 @@
 {
   "incidents": [
     {
+      "id": "auto-dev-api-1793091595293",
+      "source": "auto",
+      "title": "Application API degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "api"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-10-27T08:59:55.293Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-10-27T08:59:55.293Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that Application API is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
       "id": "auto-dev-api-1793061676127",
       "source": "auto",
       "title": "Application API degraded performance",
