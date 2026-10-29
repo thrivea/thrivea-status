@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T09:27:05.461Z",
+  "generatedAt": "2026-10-29T09:37:26.234Z",
   "overall": "operational",
   "environment": {
     "id": "dev",
@@ -30,7 +30,7 @@
       "description": "Core gRPC/REST API on the dev environment.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 393,
+      "latencyMs": 394,
       "history": [
         {
           "date": "2026-08-01",
