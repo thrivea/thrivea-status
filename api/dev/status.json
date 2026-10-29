@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T23:44:29.270Z",
+  "generatedAt": "2026-10-29T23:53:55.700Z",
   "overall": "operational",
   "environment": {
     "id": "dev",
@@ -30,7 +30,7 @@
       "description": "Core gRPC/REST API on the dev environment.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 564,
+      "latencyMs": 513,
       "history": [
         {
           "date": "2026-08-01",
@@ -568,12 +568,12 @@
         },
         {
           "date": "2026-10-29",
-          "uptime": 0.990990990990991,
+          "uptime": 0.9910714285714286,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.989778457964071
+      "uptime90": 0.9897793517149648
     },
     {
       "id": "auth",
@@ -581,7 +581,7 @@
       "description": "Sign-in, identity, single sign-on and workspace federation.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 529,
+      "latencyMs": 508,
       "history": [
         {
           "date": "2026-08-01",
@@ -1119,12 +1119,12 @@
         },
         {
           "date": "2026-10-29",
-          "uptime": 0.990990990990991,
+          "uptime": 0.9910714285714286,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9964217927255404
+      "uptime90": 0.9964226864764342
     },
     {
       "id": "networking",
@@ -1132,7 +1132,7 @@
       "description": "Company feed, posts, audience and messaging.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 529,
+      "latencyMs": 508,
       "history": [
         {
           "date": "2026-08-01",
@@ -1670,12 +1670,12 @@
         },
         {
           "date": "2026-10-29",
-          "uptime": 0.990990990990991,
+          "uptime": 0.9910714285714286,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9962736445773923
+      "uptime90": 0.996274538328286
     },
     {
       "id": "organization",
@@ -1683,7 +1683,7 @@
       "description": "Employee records, jobs, compensation and workflows.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 529,
+      "latencyMs": 508,
       "history": [
         {
           "date": "2026-08-01",
@@ -2221,12 +2221,12 @@
         },
         {
           "date": "2026-10-29",
-          "uptime": 0.990990990990991,
+          "uptime": 0.9910714285714286,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9962736445773923
+      "uptime90": 0.996274538328286
     },
     {
       "id": "notifications",
@@ -2234,7 +2234,7 @@
       "description": "Email, push and in-app notifications.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 529,
+      "latencyMs": 508,
       "history": [
         {
           "date": "2026-08-01",
@@ -2772,12 +2772,12 @@
         },
         {
           "date": "2026-10-29",
-          "uptime": 0.990990990990991,
+          "uptime": 0.9910714285714286,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9962630625668104
+      "uptime90": 0.9962639563177041
     },
     {
       "id": "database",
@@ -2785,7 +2785,7 @@
       "description": "Primary PostgreSQL data store.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 529,
+      "latencyMs": 508,
       "history": [
         {
           "date": "2026-08-01",
@@ -3323,12 +3323,12 @@
         },
         {
           "date": "2026-10-29",
-          "uptime": 0.990990990990991,
+          "uptime": 0.9910714285714286,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9966508877999964
+      "uptime90": 0.9966517815508902
     },
     {
       "id": "background",
@@ -3336,7 +3336,7 @@
       "description": "Async processing: projections, schedulers, integrations.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 529,
+      "latencyMs": 508,
       "history": [
         {
           "date": "2026-08-01",
