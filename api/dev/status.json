@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T22:35:50.735Z",
+  "generatedAt": "2026-10-29T22:44:25.449Z",
   "overall": "operational",
   "environment": {
     "id": "dev",
@@ -30,7 +30,7 @@
       "description": "Core gRPC/REST API on the dev environment.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 468,
+      "latencyMs": 455,
       "history": [
         {
           "date": "2026-08-01",
@@ -568,12 +568,12 @@
         },
         {
           "date": "2026-10-29",
-          "uptime": 0.9904761904761905,
+          "uptime": 0.9905660377358491,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.989772737958351
+      "uptime90": 0.9897737362612361
     },
     {
       "id": "auth",
@@ -581,7 +581,7 @@
       "description": "Sign-in, identity, single sign-on and workspace federation.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 468,
+      "latencyMs": 443,
       "history": [
         {
           "date": "2026-08-01",
@@ -1119,12 +1119,12 @@
         },
         {
           "date": "2026-10-29",
-          "uptime": 0.9904761904761905,
+          "uptime": 0.9905660377358491,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9964160727198204
+      "uptime90": 0.9964170710227055
     },
     {
       "id": "networking",
@@ -1132,7 +1132,7 @@
       "description": "Company feed, posts, audience and messaging.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 468,
+      "latencyMs": 443,
       "history": [
         {
           "date": "2026-08-01",
@@ -1670,12 +1670,12 @@
         },
         {
           "date": "2026-10-29",
-          "uptime": 0.9904761904761905,
+          "uptime": 0.9905660377358491,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9962679245716722
+      "uptime90": 0.9962689228745573
     },
     {
       "id": "organization",
@@ -1683,7 +1683,7 @@
       "description": "Employee records, jobs, compensation and workflows.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 468,
+      "latencyMs": 443,
       "history": [
         {
           "date": "2026-08-01",
@@ -2221,12 +2221,12 @@
         },
         {
           "date": "2026-10-29",
-          "uptime": 0.9904761904761905,
+          "uptime": 0.9905660377358491,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9962679245716722
+      "uptime90": 0.9962689228745573
     },
     {
       "id": "notifications",
@@ -2234,7 +2234,7 @@
       "description": "Email, push and in-app notifications.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 468,
+      "latencyMs": 443,
       "history": [
         {
           "date": "2026-08-01",
@@ -2772,12 +2772,12 @@
         },
         {
           "date": "2026-10-29",
-          "uptime": 0.9904761904761905,
+          "uptime": 0.9905660377358491,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9962573425610903
+      "uptime90": 0.9962583408639755
     },
     {
       "id": "database",
@@ -2785,7 +2785,7 @@
       "description": "Primary PostgreSQL data store.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 468,
+      "latencyMs": 443,
       "history": [
         {
           "date": "2026-08-01",
@@ -3323,12 +3323,12 @@
         },
         {
           "date": "2026-10-29",
-          "uptime": 0.9904761904761905,
+          "uptime": 0.9905660377358491,
           "down": 0,
           "degraded": 1
         }
       ],
-      "uptime90": 0.9966451677942764
+      "uptime90": 0.9966461660971615
     },
     {
       "id": "background",
@@ -3336,7 +3336,7 @@
       "description": "Async processing: projections, schedulers, integrations.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 468,
+      "latencyMs": 443,
       "history": [
         {
           "date": "2026-08-01",
