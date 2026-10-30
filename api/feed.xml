@@ -4,7 +4,7 @@
   <link href="https://status.thrivea.com/feed.xml" rel="self"/>
   <link href="https://status.thrivea.com"/>
   <id>https://status.thrivea.com/</id>
-  <updated>2026-10-30T09:37:39.442Z</updated>
+  <updated>2026-10-30T09:46:44.028Z</updated>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:auto-prod-api-1793278540940</id>
     <title>Application API degraded performance (resolved)</title>
