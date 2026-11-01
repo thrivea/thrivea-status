@@ -260,38 +260,6 @@
           "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
         }
       ]
-    },
-    {
-      "id": "auto-dev-aggregate-1792247933818",
-      "source": "auto",
-      "aggregate": true,
-      "title": "Major service outage",
-      "impact": "major",
-      "componentIds": [
-        "api",
-        "auth",
-        "networking",
-        "organization",
-        "notifications",
-        "database",
-        "background"
-      ],
-      "status": "resolved",
-      "startedAt": "2026-10-17T14:38:53.818Z",
-      "resolvedAt": "2026-10-17T15:47:05.597Z",
-      "eta": null,
-      "updates": [
-        {
-          "at": "2026-10-17T15:47:05.597Z",
-          "status": "resolved",
-          "body": "The platform-wide outage has cleared. Any remaining component issues are tracked individually."
-        },
-        {
-          "at": "2026-10-17T14:38:53.818Z",
-          "status": "investigating",
-          "body": "Automated monitoring detected that multiple services are affected (Application API, Authentication & SSO, Social Feed, HR & Organization, Notifications & Email, Database, Background Jobs). Our team has been alerted."
-        }
-      ]
     }
   ]
 }
