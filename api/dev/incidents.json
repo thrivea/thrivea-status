@@ -180,31 +180,6 @@
           "body": "Automated monitoring detected that Application API is responding slowly or partially. Our team has been alerted."
         }
       ]
-    },
-    {
-      "id": "auto-dev-api-1792364166294",
-      "source": "auto",
-      "title": "Application API outage",
-      "impact": "major",
-      "componentIds": [
-        "api"
-      ],
-      "status": "resolved",
-      "startedAt": "2026-10-18T22:56:06.294Z",
-      "resolvedAt": "2026-10-18T23:14:29.305Z",
-      "eta": null,
-      "updates": [
-        {
-          "at": "2026-10-18T23:14:29.305Z",
-          "status": "resolved",
-          "body": "Application API has recovered and is fully operational again. Automated monitoring confirms healthy responses."
-        },
-        {
-          "at": "2026-10-18T22:56:06.294Z",
-          "status": "investigating",
-          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
-        }
-      ]
     }
   ]
 }
