@@ -235,31 +235,6 @@
           "body": "Automated monitoring detected that multiple services are affected (Application API, Authentication & SSO, Social Feed, HR & Organization, Notifications & Email). Our team has been alerted."
         }
       ]
-    },
-    {
-      "id": "auto-dev-api-1792295385175",
-      "source": "auto",
-      "title": "Application API outage",
-      "impact": "major",
-      "componentIds": [
-        "api"
-      ],
-      "status": "resolved",
-      "startedAt": "2026-10-18T03:49:45.175Z",
-      "resolvedAt": "2026-10-18T03:58:36.860Z",
-      "eta": null,
-      "updates": [
-        {
-          "at": "2026-10-18T03:58:36.860Z",
-          "status": "resolved",
-          "body": "Application API has recovered and is fully operational again. Automated monitoring confirms healthy responses."
-        },
-        {
-          "at": "2026-10-18T03:49:45.175Z",
-          "status": "investigating",
-          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
-        }
-      ]
     }
   ]
 }
