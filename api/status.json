@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T23:53:38.210Z",
+  "generatedAt": "2026-11-03T00:26:05.936Z",
   "overall": "operational",
   "environment": {
     "id": "prod",
@@ -30,14 +30,8 @@
       "description": "Core gRPC/REST API that the Thrivea web app talks to.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 727,
+      "latencyMs": 738,
       "history": [
-        {
-          "date": "2026-08-05",
-          "uptime": 1,
-          "down": 0,
-          "degraded": 0
-        },
         {
           "date": "2026-08-06",
           "uptime": 1,
@@ -571,6 +565,12 @@
           "uptime": 0.9918032786885246,
           "down": 1,
           "degraded": 0
+        },
+        {
+          "date": "2026-11-03",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
         }
       ],
       "uptime90": 0.9982963281348377
@@ -583,12 +583,6 @@
       "status": "operational",
       "latencyMs": 676,
       "history": [
-        {
-          "date": "2026-08-05",
-          "uptime": 1,
-          "down": 0,
-          "degraded": 0
-        },
         {
           "date": "2026-08-06",
           "uptime": 1,
@@ -1122,6 +1116,12 @@
           "uptime": 0.9918032786885246,
           "down": 1,
           "degraded": 0
+        },
+        {
+          "date": "2026-11-03",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
         }
       ],
       "uptime90": 0.9986246295585001
@@ -1134,12 +1134,6 @@
       "status": "operational",
       "latencyMs": 676,
       "history": [
-        {
-          "date": "2026-08-05",
-          "uptime": 1,
-          "down": 0,
-          "degraded": 0
-        },
         {
           "date": "2026-08-06",
           "uptime": 1,
@@ -1672,6 +1666,12 @@
           "date": "2026-11-02",
           "uptime": 0.9918032786885246,
           "down": 1,
+          "degraded": 0
+        },
+        {
+          "date": "2026-11-03",
+          "uptime": 1,
+          "down": 0,
           "degraded": 0
         }
       ],
@@ -1686,12 +1686,6 @@
       "latencyMs": 676,
       "history": [
         {
-          "date": "2026-08-05",
-          "uptime": 1,
-          "down": 0,
-          "degraded": 0
-        },
-        {
           "date": "2026-08-06",
           "uptime": 1,
           "down": 0,
@@ -2223,6 +2217,12 @@
           "date": "2026-11-02",
           "uptime": 0.9918032786885246,
           "down": 1,
+          "degraded": 0
+        },
+        {
+          "date": "2026-11-03",
+          "uptime": 1,
+          "down": 0,
           "degraded": 0
         }
       ],
@@ -2237,12 +2237,6 @@
       "latencyMs": 676,
       "history": [
         {
-          "date": "2026-08-05",
-          "uptime": 1,
-          "down": 0,
-          "degraded": 0
-        },
-        {
           "date": "2026-08-06",
           "uptime": 1,
           "down": 0,
@@ -2775,6 +2769,12 @@
           "uptime": 0.9918032786885246,
           "down": 1,
           "degraded": 0
+        },
+        {
+          "date": "2026-11-03",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
         }
       ],
       "uptime90": 0.9987085235294273
@@ -2787,12 +2787,6 @@
       "status": "operational",
       "latencyMs": 676,
       "history": [
-        {
-          "date": "2026-08-05",
-          "uptime": 1,
-          "down": 0,
-          "degraded": 0
-        },
         {
           "date": "2026-08-06",
           "uptime": 1,
@@ -3326,6 +3320,12 @@
           "uptime": 0.9918032786885246,
           "down": 1,
           "degraded": 0
+        },
+        {
+          "date": "2026-11-03",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
         }
       ],
       "uptime90": 0.9989376186038833
@@ -3338,12 +3338,6 @@
       "status": "operational",
       "latencyMs": 676,
       "history": [
-        {
-          "date": "2026-08-05",
-          "uptime": 1,
-          "down": 0,
-          "degraded": 0
-        },
         {
           "date": "2026-08-06",
           "uptime": 1,
@@ -3874,6 +3868,12 @@
         },
         {
           "date": "2026-11-02",
+          "uptime": 1,
+          "down": 0,
+          "degraded": 0
+        },
+        {
+          "date": "2026-11-03",
           "uptime": 1,
           "down": 0,
           "degraded": 0
