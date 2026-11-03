@@ -155,31 +155,6 @@
           "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
         }
       ]
-    },
-    {
-      "id": "auto-dev-api-1792396112588",
-      "source": "auto",
-      "title": "Application API degraded performance",
-      "impact": "minor",
-      "componentIds": [
-        "api"
-      ],
-      "status": "resolved",
-      "startedAt": "2026-10-19T07:48:32.588Z",
-      "resolvedAt": "2026-10-19T08:03:24.817Z",
-      "eta": null,
-      "updates": [
-        {
-          "at": "2026-10-19T08:03:24.817Z",
-          "status": "resolved",
-          "body": "Application API has recovered and is fully operational again. Automated monitoring confirms healthy responses."
-        },
-        {
-          "at": "2026-10-19T07:48:32.588Z",
-          "status": "investigating",
-          "body": "Automated monitoring detected that Application API is responding slowly or partially. Our team has been alerted."
-        }
-      ]
     }
   ]
 }
