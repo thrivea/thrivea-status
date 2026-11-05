@@ -130,31 +130,6 @@
           "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
         }
       ]
-    },
-    {
-      "id": "auto-dev-api-1792576552864",
-      "source": "auto",
-      "title": "Application API outage",
-      "impact": "major",
-      "componentIds": [
-        "api"
-      ],
-      "status": "resolved",
-      "startedAt": "2026-10-21T09:55:52.864Z",
-      "resolvedAt": "2026-10-21T10:18:50.451Z",
-      "eta": null,
-      "updates": [
-        {
-          "at": "2026-10-21T10:18:50.451Z",
-          "status": "resolved",
-          "body": "Application API has recovered and is fully operational again. Automated monitoring confirms healthy responses."
-        },
-        {
-          "at": "2026-10-21T09:55:52.864Z",
-          "status": "investigating",
-          "body": "Automated monitoring detected that Application API is unreachable / failing health checks. Our team has been alerted."
-        }
-      ]
     }
   ]
 }
