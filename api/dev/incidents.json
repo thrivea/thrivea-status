@@ -30,37 +30,6 @@
           "body": "Automated monitoring detected that multiple services are affected (Application API, Authentication & SSO, Social Feed, HR & Organization, Notifications & Email, Database). Our team has been alerted."
         }
       ]
-    },
-    {
-      "id": "auto-dev-aggregate-1793289277004",
-      "source": "auto",
-      "aggregate": true,
-      "title": "Multiple services degraded",
-      "impact": "minor",
-      "componentIds": [
-        "api",
-        "auth",
-        "networking",
-        "organization",
-        "notifications",
-        "database"
-      ],
-      "status": "resolved",
-      "startedAt": "2026-10-29T15:54:37.004Z",
-      "resolvedAt": "2026-10-29T16:13:15.499Z",
-      "eta": null,
-      "updates": [
-        {
-          "at": "2026-10-29T16:13:15.499Z",
-          "status": "resolved",
-          "body": "The platform-wide outage has cleared. Any remaining component issues are tracked individually."
-        },
-        {
-          "at": "2026-10-29T15:54:37.004Z",
-          "status": "investigating",
-          "body": "Automated monitoring detected that multiple services are affected (Application API, Authentication & SSO, Social Feed, HR & Organization, Notifications & Email, Database). Our team has been alerted."
-        }
-      ]
     }
   ]
 }
