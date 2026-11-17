@@ -33,37 +33,6 @@
       ]
     },
     {
-      "id": "auto-prod-aggregate-1793660039198",
-      "source": "auto",
-      "aggregate": true,
-      "title": "Major service outage",
-      "impact": "major",
-      "componentIds": [
-        "api",
-        "auth",
-        "networking",
-        "organization",
-        "notifications",
-        "database"
-      ],
-      "status": "resolved",
-      "startedAt": "2026-11-02T22:53:59.198Z",
-      "resolvedAt": "2026-11-02T23:08:43.216Z",
-      "eta": null,
-      "updates": [
-        {
-          "at": "2026-11-02T23:08:43.216Z",
-          "status": "resolved",
-          "body": "The platform-wide outage has cleared. Any remaining component issues are tracked individually."
-        },
-        {
-          "at": "2026-11-02T22:53:59.198Z",
-          "status": "investigating",
-          "body": "Automated monitoring detected that multiple services are affected (Application API, Authentication & SSO, Social Feed, HR & Organization, Notifications & Email, Database). Our team has been alerted."
-        }
-      ]
-    },
-    {
       "source": "manual",
       "resolvedAt": "2026-07-03T07:21:00.000Z",
       "eta": null,
