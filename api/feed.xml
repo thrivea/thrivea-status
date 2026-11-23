@@ -4,7 +4,14 @@
   <link href="https://status.thrivea.com/feed.xml" rel="self"/>
   <link href="https://status.thrivea.com"/>
   <id>https://status.thrivea.com/</id>
-  <updated>2026-11-23T13:26:02.192Z</updated>
+  <updated>2026-11-23T13:36:29.048Z</updated>
+  <entry>
+    <id>tag:status.thrivea.com,2026:prod:auto-prod-organization-1795440989048</id>
+    <title>HR &amp; Organization degraded performance</title>
+    <updated>2026-11-23T13:36:29.048Z</updated>
+    <link href="https://status.thrivea.com/#auto-prod-organization-1795440989048"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that HR &amp;amp; Organization is responding slowly or partially. Our team has been alerted.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:auto-prod-aggregate-1794709613099</id>
     <title>Major service outage (resolved)</title>

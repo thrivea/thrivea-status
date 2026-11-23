@@ -1,6 +1,26 @@
 {
   "incidents": [
     {
+      "id": "auto-prod-organization-1795440989048",
+      "source": "auto",
+      "title": "HR & Organization degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "organization"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-11-23T13:36:29.048Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-11-23T13:36:29.048Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that HR & Organization is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
       "id": "auto-prod-aggregate-1794709613099",
       "source": "auto",
       "aggregate": true,
