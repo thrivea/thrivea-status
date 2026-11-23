@@ -1,22 +1,26 @@
 {
   "incidents": [
     {
-      "id": "auto-prod-organization-1795453789325",
+      "id": "auto-prod-aggregate-1795454308827",
       "source": "auto",
-      "title": "HR & Organization degraded performance",
+      "aggregate": true,
+      "title": "Multiple services degraded",
       "impact": "minor",
       "componentIds": [
-        "organization"
+        "auth",
+        "networking",
+        "organization",
+        "notifications"
       ],
       "status": "investigating",
-      "startedAt": "2026-11-23T17:09:49.325Z",
+      "startedAt": "2026-11-23T17:18:28.827Z",
       "resolvedAt": null,
       "eta": null,
       "updates": [
         {
-          "at": "2026-11-23T17:09:49.325Z",
+          "at": "2026-11-23T17:18:28.827Z",
           "status": "investigating",
-          "body": "Automated monitoring detected that HR & Organization is responding slowly or partially. Our team has been alerted."
+          "body": "Automated monitoring detected that multiple services are affected (Authentication & SSO, Social Feed, HR & Organization, Notifications & Email). Our team has been alerted."
         }
       ]
     },
