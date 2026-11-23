@@ -4,13 +4,20 @@
   <link href="https://status.thrivea.com/feed.xml" rel="self"/>
   <link href="https://status.thrivea.com"/>
   <id>https://status.thrivea.com/</id>
-  <updated>2026-11-23T18:26:08.931Z</updated>
+  <updated>2026-11-23T18:36:50.477Z</updated>
+  <entry>
+    <id>tag:status.thrivea.com,2026:prod:auto-prod-organization-1795459010477</id>
+    <title>HR &amp; Organization degraded performance</title>
+    <updated>2026-11-23T18:36:50.477Z</updated>
+    <link href="https://status.thrivea.com/#auto-prod-organization-1795459010477"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that HR &amp;amp; Organization is responding slowly or partially. Our team has been alerted.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:auto-prod-aggregate-1795458368931</id>
-    <title>Multiple services degraded</title>
-    <updated>2026-11-23T18:26:08.931Z</updated>
+    <title>Multiple services degraded (resolved)</title>
+    <updated>2026-11-23T18:36:50.477Z</updated>
     <link href="https://status.thrivea.com/#auto-prod-aggregate-1795458368931"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that multiple services are affected (Authentication &amp;amp; SSO, Social Feed, HR &amp;amp; Organization, Notifications &amp;amp; Email). Our team has been alerted.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;resolved&lt;/strong&gt; — The platform-wide outage has cleared. Any remaining component issues are tracked individually.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;investigating&lt;/strong&gt; — Automated monitoring detected that multiple services are affected (Authentication &amp;amp; SSO, Social Feed, HR &amp;amp; Organization, Notifications &amp;amp; Email). Our team has been alerted.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.thrivea.com,2026:prod:auto-prod-aggregate-1795455859918</id>
