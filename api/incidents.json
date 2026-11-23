@@ -1,6 +1,26 @@
 {
   "incidents": [
     {
+      "id": "auto-prod-organization-1795453789325",
+      "source": "auto",
+      "title": "HR & Organization degraded performance",
+      "impact": "minor",
+      "componentIds": [
+        "organization"
+      ],
+      "status": "investigating",
+      "startedAt": "2026-11-23T17:09:49.325Z",
+      "resolvedAt": null,
+      "eta": null,
+      "updates": [
+        {
+          "at": "2026-11-23T17:09:49.325Z",
+          "status": "investigating",
+          "body": "Automated monitoring detected that HR & Organization is responding slowly or partially. Our team has been alerted."
+        }
+      ]
+    },
+    {
       "id": "auto-prod-aggregate-1795451758608",
       "source": "auto",
       "aggregate": true,
@@ -12,11 +32,16 @@
         "organization",
         "notifications"
       ],
-      "status": "investigating",
+      "status": "resolved",
       "startedAt": "2026-11-23T16:35:58.608Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-11-23T17:09:49.325Z",
       "eta": null,
       "updates": [
+        {
+          "at": "2026-11-23T17:09:49.325Z",
+          "status": "resolved",
+          "body": "The platform-wide outage has cleared. Any remaining component issues are tracked individually."
+        },
         {
           "at": "2026-11-23T16:35:58.608Z",
           "status": "investigating",
