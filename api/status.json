@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T20:09:18.851Z",
+  "generatedAt": "2026-11-24T20:18:17.870Z",
   "overall": "operational",
   "environment": {
     "id": "prod",
@@ -30,7 +30,7 @@
       "description": "Core gRPC/REST API that the Thrivea web app talks to.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 560,
+      "latencyMs": 670,
       "history": [
         {
           "date": "2026-08-27",
@@ -1099,12 +1099,12 @@
         },
         {
           "date": "2026-11-24",
-          "uptime": 0.9803921568627451,
+          "uptime": 0.9805825242718447,
           "down": 0,
           "degraded": 2
         }
       ],
-      "uptime90": 0.9954003013240357
+      "uptime90": 0.9954025409406132
     },
     {
       "id": "networking",
@@ -1640,12 +1640,12 @@
         },
         {
           "date": "2026-11-24",
-          "uptime": 0.9803921568627451,
+          "uptime": 0.9805825242718447,
           "down": 0,
           "degraded": 2
         }
       ],
-      "uptime90": 0.9954891302344295
+      "uptime90": 0.9954913698510071
     },
     {
       "id": "organization",
@@ -2181,12 +2181,12 @@
         },
         {
           "date": "2026-11-24",
-          "uptime": 0.9803921568627451,
+          "uptime": 0.9805825242718447,
           "down": 0,
           "degraded": 2
         }
       ],
-      "uptime90": 0.9922987015205711
+      "uptime90": 0.9923009411371486
     },
     {
       "id": "notifications",
@@ -2722,12 +2722,12 @@
         },
         {
           "date": "2026-11-24",
-          "uptime": 0.9803921568627451,
+          "uptime": 0.9805825242718447,
           "down": 0,
           "degraded": 2
         }
       ],
-      "uptime90": 0.9954891302344295
+      "uptime90": 0.9954913698510071
     },
     {
       "id": "database",
