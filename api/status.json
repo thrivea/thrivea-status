@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T00:44:35.673Z",
-  "overall": "degraded",
+  "generatedAt": "2026-11-24T00:53:52.619Z",
+  "overall": "operational",
   "environment": {
     "id": "prod",
     "name": "Thrivea Cloud",
@@ -30,7 +30,7 @@
       "description": "Core gRPC/REST API that the Thrivea web app talks to.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 534,
+      "latencyMs": 577,
       "history": [
         {
           "date": "2026-08-27",
@@ -570,8 +570,8 @@
       "name": "Authentication & SSO",
       "description": "Sign-in, identity, single sign-on and workspace federation.",
       "group": "cloud",
-      "status": "degraded",
-      "latencyMs": 495,
+      "status": "operational",
+      "latencyMs": 557,
       "history": [
         {
           "date": "2026-08-27",
@@ -1099,20 +1099,20 @@
         },
         {
           "date": "2026-11-24",
-          "uptime": 0,
+          "uptime": 0.3333333333333333,
           "down": 0,
           "degraded": 2
         }
       ],
-      "uptime90": 0.9838662759491799
+      "uptime90": 0.9877878445766308
     },
     {
       "id": "networking",
       "name": "Social Feed",
       "description": "Company feed, posts, audience and messaging.",
       "group": "cloud",
-      "status": "degraded",
-      "latencyMs": 495,
+      "status": "operational",
+      "latencyMs": 557,
       "history": [
         {
           "date": "2026-08-27",
@@ -1640,20 +1640,20 @@
         },
         {
           "date": "2026-11-24",
-          "uptime": 0,
+          "uptime": 0.3333333333333333,
           "down": 0,
           "degraded": 2
         }
       ],
-      "uptime90": 0.9839551048595736
+      "uptime90": 0.9878766734870246
     },
     {
       "id": "organization",
       "name": "HR & Organization",
       "description": "Employee records, jobs, compensation and workflows.",
       "group": "cloud",
-      "status": "degraded",
-      "latencyMs": 495,
+      "status": "operational",
+      "latencyMs": 557,
       "history": [
         {
           "date": "2026-08-27",
@@ -2181,20 +2181,20 @@
         },
         {
           "date": "2026-11-24",
-          "uptime": 0,
+          "uptime": 0.3333333333333333,
           "down": 0,
           "degraded": 2
         }
       ],
-      "uptime90": 0.9807646761457153
+      "uptime90": 0.9846862447731661
     },
     {
       "id": "notifications",
       "name": "Notifications & Email",
       "description": "Email, push and in-app notifications.",
       "group": "cloud",
-      "status": "degraded",
-      "latencyMs": 495,
+      "status": "operational",
+      "latencyMs": 557,
       "history": [
         {
           "date": "2026-08-27",
@@ -2722,12 +2722,12 @@
         },
         {
           "date": "2026-11-24",
-          "uptime": 0,
+          "uptime": 0.3333333333333333,
           "down": 0,
           "degraded": 2
         }
       ],
-      "uptime90": 0.9839551048595736
+      "uptime90": 0.9878766734870246
     },
     {
       "id": "database",
@@ -2735,7 +2735,7 @@
       "description": "Primary PostgreSQL data store.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 495,
+      "latencyMs": 557,
       "history": [
         {
           "date": "2026-08-27",
@@ -3276,7 +3276,7 @@
       "description": "Async processing: projections, schedulers, integrations.",
       "group": "cloud",
       "status": "operational",
-      "latencyMs": 495,
+      "latencyMs": 557,
       "history": [
         {
           "date": "2026-08-27",
@@ -3812,32 +3812,7 @@
       "uptime90": 0.9990362229656923
     }
   ],
-  "activeIncidents": [
-    {
-      "id": "auto-prod-aggregate-1795478022154",
-      "source": "auto",
-      "aggregate": true,
-      "title": "Multiple services degraded",
-      "impact": "minor",
-      "componentIds": [
-        "auth",
-        "networking",
-        "organization",
-        "notifications"
-      ],
-      "status": "investigating",
-      "startedAt": "2026-11-23T23:53:42.154Z",
-      "resolvedAt": null,
-      "eta": null,
-      "updates": [
-        {
-          "at": "2026-11-23T23:53:42.154Z",
-          "status": "investigating",
-          "body": "Automated monitoring detected that multiple services are affected (Authentication & SSO, Social Feed, HR & Organization, Notifications & Email). Our team has been alerted."
-        }
-      ]
-    }
-  ],
+  "activeIncidents": [],
   "recentIncidents": [
     {
       "id": "auto-prod-aggregate-1795478022154",
@@ -3851,11 +3826,16 @@
         "organization",
         "notifications"
       ],
-      "status": "investigating",
+      "status": "resolved",
       "startedAt": "2026-11-23T23:53:42.154Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-11-24T00:53:52.619Z",
       "eta": null,
       "updates": [
+        {
+          "at": "2026-11-24T00:53:52.619Z",
+          "status": "resolved",
+          "body": "The platform-wide outage has cleared. Any remaining component issues are tracked individually."
+        },
         {
           "at": "2026-11-23T23:53:42.154Z",
           "status": "investigating",
